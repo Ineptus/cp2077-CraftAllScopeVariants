@@ -1,0 +1,36 @@
+######   IneptedCyberMods            ######
+######   Craft All Scope Variants!   ######
+
+## We have quite a lot of recipes, better involve several resellers
+
+# Badlands, by the Sunset Motel
+Vendors.bls_ina_se1_gunsmith_02:
+  itemStock:
+    - !append-from Vendors.IneptedEpicSniperScopeRecipesStockListHolder.itemStock
+    - !append-from Vendors.IneptedLegendarySniperScopeRecipesStockListHolder.itemStock
+
+# Good ol' Wilson
+Vendors.wat_lch_gunsmith_01:
+  itemStock:
+    - !append-from Vendors.IneptedEpicShortScopeRecipesStockListHolder.itemStock
+
+# City Centre, Corpo Plaza
+Vendors.cct_dtn_guns_01:
+  itemStock:
+    - !append-from Vendors.IneptedLegendaryLongScopeRecipesStockListHolder.itemStock
+
+# Watson, Kabuki Market, "Straight Shooters"
+Vendors.wat_kab_gunsmith_01:
+  itemStock:
+    - !append-from Vendors.IneptedEpicLongScopeRecipesStockListHolder.itemStock
+
+# Heywood, Wellsprings
+Vendors.hey_spr_gunsmith_01:
+  itemStock:
+    - !append-from Vendors.IneptedLegendaryShortScopeRecipesStockListHolder.itemStock
+
+######    Released  into  the  cyberspace      ######     
+######    with dual compliment-the-cat clause  ######
+######    as  described  in  license.cat       ######
+######                                         ######
+######### (ɔɔ) 2077-2137 All cats're served #########

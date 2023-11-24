@@ -1,0 +1,46 @@
+=== This Cat Approved Text (CAT) file has been approved by a cat ===
+
+[0]: Thanks to psiberx, manavortex, and the Discord Modding Community
+ for all the help during the creation of this mod.
+
+[1]: I believe there are one additional thanks in order:
+ - For psiberx for implementing a groundbreaking feature in ArchiveXL 1.8.2, which will allow this mod to function much more neatly.
+
+[2]: Any rights to this mod belong to:
+ - the creators of WolvenKit, ArchiveXL, TweakXL, and Cyberpunk 2077
+ - me
+ - anyone else who somehow allowed its creation
+
+[3]: I have little right to ask anything, but I'll do it anyway.
+ If you'd like to modify this mod somehow and publish it,
+ I just ask you to do the following:
+ 1) Include this license cat file.
+ 2) Describe what you modified or which elements originated from this mod.
+ 3) Write something nice to both of my cats – Falka and Nimue* – like I did below.
+ 4) Let me know you did it, so I can read them the compliments.
+ 
+ *You can see their pictures here: https://www.instagram.com/falka_et_nimue/
+ 
+ 
+[4]: Compliments for Falka & Nimue:
+ 
+ 1) Falka, you are very beautiful. Nimue, you are very beautiful as well.
+	– Ineptus
+ 
+ 2) …
+
+
+
+
+=== (ɔɔ) 2077-2137 All cats're served ===
+
+
+====================================================================
+# Can you own a number?                                            #
+# Any program, any file, any digital content can be represented    #
+# by a single number. But with every such number, there must be    #
+# a specific algorithm to transform it to a functional content     #
+# it represents. So, if you own rights to digital content,         #
+# then do you own the number, the algorithm, or both?              #
+# But every such algorithm can be represented by a single number.  #
+====================================================================

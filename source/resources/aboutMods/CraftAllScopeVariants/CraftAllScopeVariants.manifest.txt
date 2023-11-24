@@ -1,0 +1,16 @@
+== Mod for Cyberpunk 2077 ==
+
+Name: Craft All Scope Variants
+Author: Ineptus
+Version: 0.2.1
+Requirements:
+  - TweakXL 1.5.2+
+  - ArchiveXL 1.8.1+
+Contents: (remove these files to unistall the mod)
+  - /aboutMods/CraftAllScopeVariants/*
+  - /archive/pc/mod/CraftAllScopeVariants.archive
+  - /archive/pc/mod/CraftAllScopeVariants.archive.xl
+  - /r6/tweaks/CraftAllScopeVariants/*
+  
+  
+ == Manually created manifest file as an example of what one could look like ==

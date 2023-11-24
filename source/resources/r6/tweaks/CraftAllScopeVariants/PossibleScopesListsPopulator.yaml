@@ -1,0 +1,25 @@
+######   IneptedCyberMods            ######
+######   Craft All Scope Variants!   ######
+
+
+Items.RiflePossibleScopesList.itemPartList:
+  - !append-from Items.IneptedLongScopes.itemPartList
+  - !append-from Items.IneptedShortScopes.itemPartList
+  - !append-from Items.IneptedProspectaScopes.itemPartList
+ 
+Items.HandgunPossibleScopesList.itemPartList:
+  - !append-from Items.IneptedShortScopes.itemPartList
+  - !append-from Items.IneptedProspectaScopes.itemPartList
+
+Items.NekomataPossibleScopesList.itemPartList:
+  - !append-from Items.IneptedSniperScopes.itemPartList
+
+Items.GradPossibleScopesList.itemPartList:
+  - !append-from Items.IneptedSniperScopes.itemPartList
+
+
+######    Released  into  the  cyberspace      ######     
+######    with dual compliment-the-cat clause  ######
+######    as  described  in  license.cat       ######
+######                                         ######
+######### (ɔɔ) 2077-2137 All cats're served #########

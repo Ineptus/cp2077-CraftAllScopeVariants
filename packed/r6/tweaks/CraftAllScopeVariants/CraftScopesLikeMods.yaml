@@ -1,0 +1,112 @@
+######   IneptedCyberMods            ######
+###  branch of INEPTED NRC              ###
+###  by K.P.Radzimowski, MD, CC         ###
+###  Licence: drivers and medical       ###
+###  humbly presents: 2=1?              ###
+###  Granting People Their Wishes       ###
+###  Craft Them Scopes Like You         ###
+###   Craft Them Those Mods             ###
+###    Craft Them Good                  ###
+###     Craft Them using                ###
+###        THEIR CHILDREN? (2=1)        ###
+######    Craft Scopes Like Mods     ######
+
+## Hello you!
+## I might not see you, but I know you're there
+
+
+Items.Inepted_w_att_scope_${scope}_Craftable_Uncommon:
+  $base: Items.w_att_scope_${scope}
+  $instances:
+    - { scope: long_01   }
+    - { scope: long_02   }
+    - { scope: short_01  }
+    - { scope: short_03  }
+    - { scope: short_06  }
+    - { scope: sniper_01 }
+    - { scope: sniper_02 }
+  CraftingData:
+    craftingRecipe:
+      amount: 2
+      ingredient: Items.w_att_scope_${scope}
+  quality: Quality.Uncommon
+
+Items.Inepted_w_att_scope_${scope}_Craftable_Rare:
+  $base: Items.w_att_scope_${scope}
+  $instances:
+    - { scope: long_01   }
+    - { scope: long_02   }
+    - { scope: short_01  }
+    - { scope: short_03  }
+    - { scope: short_06  }
+    - { scope: sniper_01 }
+    - { scope: sniper_02 }
+  CraftingData:
+    craftingRecipe:
+      amount: 2
+      ingredient: Items.Inepted_w_att_scope_${scope}_Craftable_Uncommon
+  quality: Quality.Rare
+  
+Items.Inepted_w_att_scope_${scope}_Craftable_Epic:
+  $base: Items.w_att_scope_${scope}
+  $instances:
+    - { scope: long_01   }
+    - { scope: long_02   }
+    - { scope: long_03   }
+    - { scope: long_06   }
+    - { scope: short_01  }
+    - { scope: short_02  }
+    - { scope: short_03  }
+    - { scope: short_04  }
+    - { scope: short_06  }
+    - { scope: sniper_01 }
+    - { scope: sniper_02 }
+  CraftingData:
+    craftingRecipe:
+      amount: 2
+      ingredient: Items.Inepted_w_att_scope_${scope}_Craftable_Rare
+  quality: Quality.Epic
+  
+Items.Inepted_w_att_scope_${scope}_Craftable_Legendary:
+  $base: Items.w_att_scope_${scope}
+  $instances:
+    - { scope: long_01   }
+    - { scope: long_02   }
+    - { scope: long_03   }
+    - { scope: long_06   }
+    - { scope: short_01  }
+    - { scope: short_02  }
+    - { scope: short_03  }
+    - { scope: short_04  }
+    - { scope: short_05  }
+    - { scope: sniper_02 }
+  CraftingData:
+    craftingRecipe:
+      amount: 2
+      ingredient: Items.Inepted_w_att_scope_${scope}_Craftable_Epic
+  quality: Quality.Legendary
+  
+Items.Inepted_w_att_scope_${scope}_Craftable_Legendary:
+  $base: Items.w_att_scope_${scope}_legendary
+  $instances:
+    - { scope: long_04   }
+    - { scope: long_05   }
+    - { scope: short_06  }
+    - { scope: short_07  }
+    - { scope: sniper_01 }
+    - { scope: sniper_03 }
+  CraftingData:
+    craftingRecipe:
+      amount: 2
+      ingredient: Items.Inepted_w_att_scope_${scope}_Craftable_Epic
+  quality: Quality.Legendary
+  
+  
+  
+  
+  
+######    Released  into  the  cyberspace      ######     
+######    with dual compliment-the-cat clause  ######
+######    as  described  in  license.cat       ######
+######                                         ######
+######### (ɔɔ) 2077-2137 All cats're served #########

@@ -1,0 +1,301 @@
+######   IneptedCyberMods            ######
+######   Craft All Scope Variants!   ######
+
+
+### --- IMPORTANT NOTE! --- ###
+## In this file let's be gentle and ask nicely in the comments, please.
+## Let's see if we get any better results this way
+
+# Create records for the crafting recipes, please:
+
+
+Price.Inepted_OneOfSeven:
+  $base: Price.PriceMultiplier
+  value: 0.143000
+
+
+Items.Inepted_BaseScopeRecipe:
+  $base: Items.BaseWeaponRecipe
+  buyPrice:
+    - !append Price.Scope
+    - !append Price.Inepted_OneOfSeven
+  
+
+Items.Inepted_Recipe_w_att_scope_${scope}_Epic:
+  $base: Items.Inepted_BaseScopeRecipe
+  $instances: &AllScopes
+    - { scope: long_01_Default      }
+    - { scope: long_01_Military_1   }
+    - { scope: long_01_Military_2   }
+    - { scope: long_01_Neon_1       }
+    - { scope: long_01_Neon_2       }
+    - { scope: long_01_Pimp_1       }
+    - { scope: long_01_Pimp_2       }
+    - { scope: long_02_Default      }
+    - { scope: long_02_Military_1   }
+    - { scope: long_02_Military_2   }
+    - { scope: long_02_Neon_1       }
+    - { scope: long_02_Neon_2       }
+    - { scope: long_02_Pimp_1       }
+    - { scope: long_02_Pimp_2       }
+    - { scope: long_03_Default      }
+    - { scope: long_03_Military_1   }
+    - { scope: long_03_Military_2   }
+    - { scope: long_03_Neon_1       }
+    - { scope: long_03_Neon_2       }
+    - { scope: long_03_Pimp_1       }
+    - { scope: long_03_Pimp_2       }
+    - { scope: long_04_Default      }
+    - { scope: long_04_Military_1   }
+    - { scope: long_04_Military_2   }
+    - { scope: long_04_Neon_1       }
+    - { scope: long_04_Neon_2       }
+    - { scope: long_04_Pimp_1       }
+    - { scope: long_04_Pimp_2       }
+    - { scope: short_01_Default     }
+    - { scope: short_01_Military_1  }
+    - { scope: short_01_Military_2  }
+    - { scope: short_01_Neon_1      }
+    - { scope: short_01_Neon_2      }
+    - { scope: short_01_Pimp_1      }
+    - { scope: short_01_Pimp_2      }
+    - { scope: short_02_Default     }
+    - { scope: short_02_Military_1  }
+    - { scope: short_02_Military_2  }
+    - { scope: short_02_Neon_1      }
+    - { scope: short_02_Neon_2      }
+    - { scope: short_02_Pimp_1      }
+    - { scope: short_02_Pimp_2      }
+    - { scope: short_03_Default     }
+    - { scope: short_03_Military_1  }
+    - { scope: short_03_Military_2  }
+    - { scope: short_03_Neon_1      }
+    - { scope: short_03_Neon_2      }
+    - { scope: short_03_Pimp_1      }
+    - { scope: short_03_Pimp_2      }
+    - { scope: short_04_Default     }
+    - { scope: short_04_Military_1  }
+    - { scope: short_04_Military_2  }
+    - { scope: short_04_Neon_1      }
+    - { scope: short_04_Neon_2      }
+    - { scope: short_04_Pimp_1      }
+    - { scope: short_04_Pimp_2      }
+    - { scope: short_05_Default     }
+    - { scope: short_05_Military_1  }
+    - { scope: short_05_Military_2  }
+    - { scope: short_05_Neon_1      }
+    - { scope: short_05_Neon_2      }
+    - { scope: short_05_Pimp_1      }
+    - { scope: short_05_Pimp_2      }
+    - { scope: sniper_01_Default    }
+    - { scope: sniper_01_Military_1 }
+    - { scope: sniper_01_Military_2 }
+    - { scope: sniper_01_Neon_1     }
+    - { scope: sniper_01_Neon_2     }
+    - { scope: sniper_01_Pimp_1     }
+    - { scope: sniper_01_Pimp_2     }
+    - { scope: sniper_02_Default    }
+    - { scope: sniper_02_Military_1 }
+    - { scope: sniper_02_Military_2 }
+    - { scope: sniper_02_Neon_1     }
+    - { scope: sniper_02_Neon_2     }
+    - { scope: sniper_02_Pimp_1     }
+    - { scope: sniper_02_Pimp_2     }
+    - { scope: long_05_Default      }
+    - { scope: long_05_Military_1   }
+    - { scope: long_05_Military_2   }
+    - { scope: long_05_Neon_1       }
+    - { scope: long_05_Neon_2       }
+    - { scope: long_05_Pimp_1       }
+    - { scope: long_05_Pimp_2       }
+    - { scope: long_06_Default      }
+    - { scope: long_06_Military_1   }
+    - { scope: long_06_Military_2   }
+    - { scope: long_06_Neon_1       }
+    - { scope: long_06_Neon_2       }
+    - { scope: long_06_Pimp_1       }
+    - { scope: long_06_Pimp_2       }
+    - { scope: short_06_Default     }
+    - { scope: short_06_Military_1  }
+    - { scope: short_06_Military_2  }
+    - { scope: short_06_Neon_1      }
+    - { scope: short_06_Neon_2      }
+    - { scope: short_06_Pimp_1      }
+    - { scope: short_06_Pimp_2      }
+    - { scope: short_07_Default     }
+    - { scope: short_07_Military_1  }
+    - { scope: short_07_Military_2  }
+    - { scope: short_07_Neon_1      }
+    - { scope: short_07_Neon_2      }
+    - { scope: short_07_Pimp_1      }
+    - { scope: short_07_Pimp_2      }
+    - { scope: sniper_03_Default    }
+    - { scope: sniper_03_Military_1 }
+    - { scope: sniper_03_Military_2 }
+    - { scope: sniper_03_Neon_1     }
+    - { scope: sniper_03_Neon_2     }
+    - { scope: sniper_03_Pimp_1     }
+    - { scope: sniper_03_Pimp_2     }
+  craftingResult: 
+    item: Items.Inepted_w_att_scope_${scope}
+  quality: Quality.Epic
+  
+# Good code, now again, but for Legendary versions, please:
+
+Items.Inepted_Recipe_w_att_scope_${scope}_Legendary:
+  $base: Items.Inepted_BaseScopeRecipe
+  $instances: *AllScopes
+  craftingResult: 
+    item: Items.Inepted_w_att_scope_${scope}_Legendary
+  quality: Quality.Legendary
+
+# Call to existence these RecipeElements, we'll need them soon, please:
+
+Items.Inepted_Craftable_Scope_Epic_RecipeElement:
+    $type: gamedataRecipeElement_Record
+    amount: 10
+    ingredient: Items.EpicMaterial1
+
+Items.Inepted_Craftable_Scope_Legendary_RecipeElement:
+    $type: gamedataRecipeElement_Record
+    amount: 10
+    ingredient: Items.LegendaryMaterial1
+
+# Oh, you great YAML! Now let's create a CraftingPackage record based on Craftable_Attachment, please
+
+Items.Inepted_Craftable_Scope_Epic:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - Items.Inepted_Craftable_Scope_Epic_RecipeElement
+
+# You rock! Now go legendary, you Legend!
+
+Items.Inepted_Craftable_Scope_Legendary:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - Items.Inepted_Craftable_Scope_Legendary_RecipeElement
+
+# Thank you!
+### --- No need to be nice anymore --- ###
+
+
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Pimp_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Default_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Military_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Military_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Neon_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Neon_2_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_1_Legendary", 1)
+# Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_2_Legendary", 1)
+
+
+
+######    Released  into  the  cyberspace      ######     
+######    with dual compliment-the-cat clause  ######
+######    as  described  in  license.cat       ######
+######                                         ######
+######### (ɔɔ) 2077-2137 All cats're served #########

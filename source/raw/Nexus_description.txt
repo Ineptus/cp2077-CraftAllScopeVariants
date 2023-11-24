@@ -1,0 +1,71 @@
+[size=4][color=#FCEE09][0]: [/color][color=#00F0FF]Compatible with[/color][/size]
+[size=4][/size] — Cyberpunk 2077 2.02 (probably any 2.0+ is fine too)
+
+[size=4][color=#FCEE09][1]: [/color][color=#00F0FF]Installation[/color][/size]
+[size=4][/size] — Check/install/update requirements
+ — Extract the archive into the game’s main directory
+
+[size=4][color=#FCEE09][2]: [/color][color=#00F0FF]Read key facts below[/color][/size]
+
+[size=4][color=#FCEE09][3A]: [/color][color=#00F0FF]Buy recipes from different weapon vendors[/color][/size]
+[size=4][/size] — Good ol’ Wilson – epic short scopes
+ — Wellsprings, Heywood – legendary short scopes
+ — Kabuki Market, Watson – epic long scopes
+ — Corpo Plaza, City Centre – legendary long scopes
+ — Badlands, by the Sunset Motel – epic and legendary sniper scopes
+[size=4][/size] [b][color=#FCEE09][!] [/color][color=#FF003C]They will appear after the stock updates, so after up to 24 in-game hours![/color][/b]
+
+[size=4][color=#FCEE09][3B]: [/color][color=#00F0FF]Or spawn scopes or recipes using CET console[/color][/size]
+
+ [color=#FCEE09][size=3][examples]:[/size][/color]
+
+ [b]Epic ClearVue Mk.3 in orange:[/b]
+ [color=#cccccc][code]Game.AddToInventory(“Items.Inepted_w_att_scope_long_03_Neon_1”, 1);[/code][/color]
+ [b]and its recipe:[/b]
+ [code]Game.AddToInventory(“Items.Inepted_Recipe_w_att_scope_long_03_Neon_1_Epic”, 1);[/code]
+
+ [b]﻿Legendary ClearVue Mk.3 in blue:[/b]
+ [code]Game.AddToInventory(“Items.Inepted_w_att_scope_long_03_Neon_2_Legendary”, 1);[/code]
+ [b]and its recipe:[/b]
+ [code]Game.AddToInventory(“Items.Inepted_Recipe_w_att_scope_long_03_Neon_2_Legendary”, 1);[/code]
+
+ [size=3][color=#FCEE09][copy]: [/color][color=#00F0FF]paste[/color][/size]
+ use lists of commands from a .txt file included in the mod
+ [code]{GameDirectory}/aboutMods/CraftAllScopeVariants/spawn_commands_copy_paste.txt[/code]
+
+[size=4][color=#FCEE09][4]: [/color][color=#00F0FF]Enjoy![/color][/size]
+[size=4][/size] and report bugs
+
+[size=4][color=#FCEE09][KEY]: [/color][color=#00F0FF]facts[/color][/size]
+[size=5][/size] [color=#FCEE09]—[/color] This mod doesn't replace existing scopes (let's call them "normal"), these can be looted, awarded, bought as before, and they're still "random"
+[size=5][/size] [color=#FCEE09]—[/color] There are 7 variants: Default, Military 1 & 2, Neon 1 & 2, and Pimp 1 & 2. All of them appear in the "normal" scopes, but they are usually randomly assigned and are indistinguishable in the inventory.
+[size=5][/size] [color=#FCEE09]—[/color] The mod simply adds new craftable versions of scopes for each variant of each scope, in two tiers: epic and legendary. Each "new" scope has its visual variant attached to the name and, if available, uses variant-specific icon. Currently they can be only crafted or spawned.
+[size=5][/size] [color=#FCEE09]—[/color] About the icons: Most of the scopes have already variant-specific icons available in game files (sic!), these can be easily distinguished in the inventory. Unfortunately, Jue, Kairo SA-1, Handyman, Kanetsugu, and Gaki have just a default icon. You need to use the names until someone (maybe me one day) creates the icons for them.
+
+
+
+[size=4][color=#FCEE09][REF]: [/color][color=#00F0FF]sheet[/color][/size]
+
+[code]﻿ long_01   - Grandstand Mk.2x
+ long_02   - E255 Percipient
+ long_03   - ClearVue Mk.8
+ long_04   - SO-21 Saika
+ long_05   - Jue
+ long_06   - Kairo SA-1
+ short_01  - OS-1 GimletEye
+ short_02  - Hyakume
+ short_03  - Add-Vantage
+ short_04  - CQO Kanone MINI Mk.72
+ short_05  - Type 2067
+ short_06  - Handyman
+ short_07  - Kanetsugu
+ sniper_01 - HPO Kanone MAX Mk.77
+ sniper_02 - E305 Prospecta
+ sniper_03 - Gaki
+[/code]
+
+[size=4][color=#FCEE09][?]: [/color][color=#00F0FF]ideas[/color][/size]
+[size=4][/size] If you believe this mod should act in a different way – describe the idea in comments – I’ll consider it or help you alter the mod yourself.
+
+[size=4][color=#FCEE09][T]: [/color][color=#00F0FF]hanks[/color][/size]
+[size=4][/size] Thanks to manavortex, psiberx, and the Discord Modding Community for all the help during the creation of this mod.

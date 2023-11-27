@@ -41,21 +41,6 @@ Items.Inepted_w_att_scope_${scope}:
 
 # And now the legendary bases. Why separate ones? Because some of the scopes have existing separate legendary versions. To allow their different stats and compatibility with mods which tweak their stats.
 
-Items.Inepted_w_att_scope_${scope}_Legendary:
-  $base: Items.w_att_scope_${scope}
-  $instances:
-    - { scope: long_01   }
-    - { scope: long_02   }
-    - { scope: long_03   }
-    - { scope: long_06   }   
-    - { scope: short_01  }
-    - { scope: short_02  }
-    - { scope: short_03  }
-    - { scope: short_04  }
-    - { scope: short_05  }
-    - { scope: sniper_02 }
-  CraftingData: Items.Inepted_Craftable_Scope_Legendary
-  quality: Quality.Legendary
 
 Items.Inepted_w_att_scope_${scope}_Legendary:
   $base: Items.w_att_scope_${scope}_legendary
@@ -95,75 +80,80 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     - { scope: long_01,    icon: grandstand_pimp1,      var1: Pimp_1,       var2: pimp1       }
     - { scope: long_01,    icon: grandstand_pimp2,      var1: Pimp_2,       var2: pimp2       }
     - { scope: long_02,    icon: percipient_deafult,    var1: Default,      var2: default     } #Sic! Deafult!
-    - { scope: long_02,    icon: percipient_military1,  var1: Military_1,   var2: military1   }
-    - { scope: long_02,    icon: percipient_military2,  var1: Military_2,   var2: military2   }
-    - { scope: long_02,    icon: percipient_neon1,      var1: Neon_1,       var2: neon1       }
-    - { scope: long_02,    icon: percipient_neon2,      var1: Neon_2,       var2: neon2       }
-    - { scope: long_02,    icon: percipient_pimp1,      var1: Pimp_1,       var2: pimp1       }
-    - { scope: long_02,    icon: percipient_pimp2,      var1: Pimp_2,       var2: pimp2       }
-    - { scope: long_03,    icon: clearvue_default,      var1: Default,      var2: default     }
-    - { scope: long_03,    icon: clearvue_military1,    var1: Military_1,   var2: military1   }
-    - { scope: long_03,    icon: clearvue_military2,    var1: Military_2,   var2: military2   }
-    - { scope: long_03,    icon: clearvue_neon1,        var1: Neon_1,       var2: neon1       }
-    - { scope: long_03,    icon: clearvue_neon2,        var1: Neon_2,       var2: neon2       }
-    - { scope: long_03,    icon: clearvue_pimp1,        var1: Pimp_1,       var2: pimp1       }
-    - { scope: long_03,    icon: clearvue_pimp2,        var1: Pimp_2,       var2: pimp2       }
-    - { scope: long_04,    icon: saika_default,         var1: Default,      var2: default     }
-    - { scope: long_04,    icon: saika_military1,       var1: Military_1,   var2: military1   }
-    - { scope: long_04,    icon: saika_military2,       var1: Military_2,   var2: military2   }
-    - { scope: long_04,    icon: saika_neon1,           var1: Neon_1,       var2: neon1       }
-    - { scope: long_04,    icon: saika_neon2,           var1: Neon_2,       var2: neon2       }
-    - { scope: long_04,    icon: saika_pimp1,           var1: Pimp_1,       var2: pimp1       }
-    - { scope: long_04,    icon: saika_pimp2,           var1: Pimp_2,       var2: pimp2       }
-    - { scope: short_01,   icon: gimleteye_default,     var1: Default,      var2: default     }
-    - { scope: short_01,   icon: gimleteye_military1,   var1: Military_1,   var2: military1   }
-    - { scope: short_01,   icon: gimleteye_military2,   var1: Military_2,   var2: military2   }
-    - { scope: short_01,   icon: gimleteye_neon1,       var1: Neon_1,       var2: neon1       }
-    - { scope: short_01,   icon: gimleteye_neon2,       var1: Neon_2,       var2: neon2       }
-    - { scope: short_01,   icon: gimleteye_pimp1,       var1: Pimp_1,       var2: pimp1       }
-    - { scope: short_01,   icon: gimleteye_pimp2,       var1: Pimp_2,       var2: pimp2       }
-    - { scope: short_02,   icon: hyakume_default,       var1: Default,      var2: default     }
-    - { scope: short_02,   icon: hyakume_military1,     var1: Military_1,   var2: military1   }
-    - { scope: short_02,   icon: hyakume_military2,     var1: Military_2,   var2: military2   }
-    - { scope: short_02,   icon: hyakume_neon1,         var1: Neon_1,       var2: neon1       }
-    - { scope: short_02,   icon: hyakume_neon2,         var1: Neon_2,       var2: neon2       }
-    - { scope: short_02,   icon: hyakume_pimp1,         var1: Pimp_1,       var2: pimp1       }
-    - { scope: short_02,   icon: hyakume_pimp2,         var1: Pimp_2,       var2: pimp2       }
-    - { scope: short_03,   icon: add_vantage_default,   var1: Default,      var2: default     }
-    - { scope: short_03,   icon: add_vantage_military1, var1: Military_1,   var2: military1   }
-    - { scope: short_03,   icon: add_vantage_military2, var1: Military_2,   var2: military2   }
-    - { scope: short_03,   icon: add_vantage_neon1,     var1: Neon_1,       var2: neon1       }
-    - { scope: short_03,   icon: add_vantage_neon2,     var1: Neon_2,       var2: neon2       }
-    - { scope: short_03,   icon: add_vantage_pimp1,     var1: Pimp_1,       var2: pimp1       }
-    - { scope: short_03,   icon: add_vantage_pimp2,     var1: Pimp_2,       var2: pimp2       }
-    - { scope: short_04,   icon: kanone_mini_default,   var1: Default,      var2: default     }
-    - { scope: short_04,   icon: kanone_mini_military1, var1: Military_1,   var2: military1   }
-    - { scope: short_04,   icon: kanone_mini_military2, var1: Military_2,   var2: military2   }
-    - { scope: short_04,   icon: kanone_mini_neon1,     var1: Neon_1,       var2: neon1       }
-    - { scope: short_04,   icon: kanone_mini_neon2,     var1: Neon_2,       var2: neon2       }
-    - { scope: short_04,   icon: kanone_mini_pimp1,     var1: Pimp_1,       var2: pimp1       }
-    - { scope: short_04,   icon: kanone_mini_pimp2,     var1: Pimp_2,       var2: pimp2       }
-    - { scope: short_05,   icon: type_2067_default,     var1: Default,      var2: default     }
-    - { scope: short_05,   icon: type_2067_military1,   var1: Military_1,   var2: military1   }
-    - { scope: short_05,   icon: type_2067_military2,   var1: Military_2,   var2: military2   }
-    - { scope: short_05,   icon: type_2067_neon1,       var1: Neon_1,       var2: neon1       }
-    - { scope: short_05,   icon: type_2067_neon2,       var1: Neon_2,       var2: neon2       }
-    - { scope: short_05,   icon: type_2067_pimp1,       var1: Pimp_1,       var2: pimp1       }
-    - { scope: short_05,   icon: type_2067_pimp2,       var1: Pimp_2,       var2: pimp2       }
-    - { scope: sniper_01,  icon: kanone_max_default,    var1: Default,      var2: default     }
-    - { scope: sniper_01,  icon: kanone_max_military1,  var1: Military_1,   var2: military1   }
-    - { scope: sniper_01,  icon: kanone_max_military2,  var1: Military_2,   var2: military2   }
-    - { scope: sniper_01,  icon: kanone_max_neon1,      var1: Neon_1,       var2: neon1       }
-    - { scope: sniper_01,  icon: kanone_max_neon2,      var1: Neon_2,       var2: neon2       }
-    - { scope: sniper_01,  icon: kanone_max_pimp1,      var1: Pimp_1,       var2: pimp1       }
-    - { scope: sniper_01,  icon: kanone_max_pimp2,      var1: Pimp_2,       var2: pimp2       }
-    - { scope: sniper_02,  icon: prospecta_default,     var1: Default,      var2: default     }
-    - { scope: sniper_02,  icon: prospecta_military1,   var1: Military_1,   var2: military1   }
-    - { scope: sniper_02,  icon: prospecta_military2,   var1: Military_2,   var2: military2   }
-    - { scope: sniper_02,  icon: prospecta_neon1,       var1: Neon_1,       var2: neon1       }
-    - { scope: sniper_02,  icon: prospecta_neon2,       var1: Neon_2,       var2: neon2       }
-    - { scope: sniper_02,  icon: prospecta_pimp1,       var1: Pimp_1,       var2: pimp1       }
-    - { scope: sniper_02,  icon: prospecta_pimp2,       var1: Pimp_2,       var2: pimp2       }
+    - { scope: long_02,    icon: percipient_military1,    var1: Military_1,   var2: military1    }
+    - { scope: long_02,    icon: percipient_military2,    var1: Military_2,   var2: military2    }
+    - { scope: long_02,    icon: percipient_neon1,        var1: Neon_1,       var2: neon1        }
+    - { scope: long_02,    icon: percipient_neon2,        var1: Neon_2,       var2: neon2        }
+    - { scope: long_02,    icon: percipient_pimp1,        var1: Pimp_1,       var2: pimp1        }
+    - { scope: long_02,    icon: percipient_pimp2,        var1: Pimp_2,       var2: pimp2        }
+    - { scope: long_03,    icon: clearvue_default,        var1: Default,      var2: default      }
+    - { scope: long_03,    icon: clearvue_military1,      var1: Military_1,   var2: military1    }
+    - { scope: long_03,    icon: clearvue_military2,      var1: Military_2,   var2: military2    }
+    - { scope: long_03,    icon: clearvue_neon1,          var1: Neon_1,       var2: neon1        }
+    - { scope: long_03,    icon: clearvue_neon2,          var1: Neon_2,       var2: neon2        }
+    - { scope: long_03,    icon: clearvue_pimp1,          var1: Pimp_1,       var2: pimp1        }
+    - { scope: long_03,    icon: clearvue_pimp2,          var1: Pimp_2,       var2: pimp2        }
+    - { scope: long_04,    icon: saika_default,           var1: Default,      var2: default      }
+    - { scope: long_04,    icon: saika_military1,         var1: Military_1,   var2: military1    }
+    - { scope: long_04,    icon: saika_military2,         var1: Military_2,   var2: military2    }
+    - { scope: long_04,    icon: saika_neon1,             var1: Neon_1,       var2: neon1        }
+    - { scope: long_04,    icon: saika_neon2,             var1: Neon_2,       var2: neon2        }
+    - { scope: long_04,    icon: saika_pimp1,             var1: Pimp_1,       var2: pimp1        }
+    - { scope: long_04,    icon: saika_pimp2,             var1: Pimp_2,       var2: pimp2        }
+    - { scope: short_01,   icon: gimleteye_default,       var1: Default,      var2: default      }
+    - { scope: short_01,   icon: gimleteye_military1,     var1: Military_1,   var2: military1    }
+    - { scope: short_01,   icon: gimleteye_military2,     var1: Military_2,   var2: military2    }
+    - { scope: short_01,   icon: gimleteye_neon1,         var1: Neon_1,       var2: neon1        }
+    - { scope: short_01,   icon: gimleteye_neon2,         var1: Neon_2,       var2: neon2        }
+    - { scope: short_01,   icon: gimleteye_pimp1,         var1: Pimp_1,       var2: pimp1        }
+    - { scope: short_01,   icon: gimleteye_pimp2,         var1: Pimp_2,       var2: pimp2        }
+    - { scope: short_02,   icon: hyakume_default,         var1: Default,      var2: default      }
+    - { scope: short_02,   icon: hyakume_military1,       var1: Military_1,   var2: military1    }
+    - { scope: short_02,   icon: hyakume_military2,       var1: Military_2,   var2: military2    }
+    - { scope: short_02,   icon: hyakume_neon1,           var1: Neon_1,       var2: neon1        }
+    - { scope: short_02,   icon: hyakume_neon2,           var1: Neon_2,       var2: neon2        }
+    - { scope: short_02,   icon: hyakume_pimp1,           var1: Pimp_1,       var2: pimp1        }
+    - { scope: short_02,   icon: hyakume_pimp2,           var1: Pimp_2,       var2: pimp2        }
+    - { scope: short_03,   icon: add_vantage_default,     var1: Default,      var2: default      }
+    - { scope: short_03,   icon: add_vantage_military1,   var1: Military_1,   var2: military1    }
+    - { scope: short_03,   icon: add_vantage_military2,   var1: Military_2,   var2: military2    }
+    - { scope: short_03,   icon: add_vantage_neon1,       var1: Neon_1,       var2: neon1        }
+    - { scope: short_03,   icon: add_vantage_neon2,       var1: Neon_2,       var2: neon2        }
+    - { scope: short_03,   icon: add_vantage_pimp1,       var1: Pimp_1,       var2: pimp1        }
+    - { scope: short_03,   icon: add_vantage_pimp2,       var1: Pimp_2,       var2: pimp2        }
+    - { scope: short_03,   icon: add_vantage_franks,      var1: Frank,        var2: frank        }
+    - { scope: short_04,   icon: kanone_mini_default,     var1: Default,      var2: default      }
+    - { scope: short_04,   icon: kanone_mini_military1,   var1: Military_1,   var2: military1    }
+    - { scope: short_04,   icon: kanone_mini_military2,   var1: Military_2,   var2: military2    }
+    - { scope: short_04,   icon: kanone_mini_neon1,       var1: Neon_1,       var2: neon1        }
+    - { scope: short_04,   icon: kanone_mini_neon2,       var1: Neon_2,       var2: neon2        }
+    - { scope: short_04,   icon: kanone_mini_pimp1,       var1: Pimp_1,       var2: pimp1        }
+    - { scope: short_04,   icon: kanone_mini_pimp2,       var1: Pimp_2,       var2: pimp2        }
+    - { scope: short_05,   icon: type_2067_default,       var1: Default,      var2: default      }
+    - { scope: short_05,   icon: type_2067_military1,     var1: Military_1,   var2: military1    }
+    - { scope: short_05,   icon: type_2067_military2,     var1: Military_2,   var2: military2    }
+    - { scope: short_05,   icon: type_2067_neon1,         var1: Neon_1,       var2: neon1        }
+    - { scope: short_05,   icon: type_2067_neon2,         var1: Neon_2,       var2: neon2        }
+    - { scope: short_05,   icon: type_2067_pimp1,         var1: Pimp_1,       var2: pimp1        }
+    - { scope: short_05,   icon: type_2067_pimp2,         var1: Pimp_2,       var2: pimp2        }
+    - { scope: sniper_01,  icon: kanone_max_default,      var1: Default,      var2: default      }
+    - { scope: sniper_01,  icon: kanone_max_military1,    var1: Military_1,   var2: military1    }
+    - { scope: sniper_01,  icon: kanone_max_military2,    var1: Military_2,   var2: military2    }
+    - { scope: sniper_01,  icon: kanone_max_neon1,        var1: Neon_1,       var2: neon1        }
+    - { scope: sniper_01,  icon: kanone_max_neon2,        var1: Neon_2,       var2: neon2        }
+    - { scope: sniper_01,  icon: kanone_max_pimp1,        var1: Pimp_1,       var2: pimp1        }
+    - { scope: sniper_01,  icon: kanone_max_pimp2,        var1: Pimp_2,       var2: pimp2        }
+    - { scope: sniper_01,  icon: kanone_max_panam,        var1: Panam,        var2: panam        }
+    - { scope: sniper_01,  icon: kanone_max_buck,         var1: Buck,         var2: buck         }
+    - { scope: sniper_01,  icon: kanone_max_breakthrough, var1: Breakthrough, var2: breakthrough }
+    - { scope: sniper_01,  icon: kanone_max_default,      var1: Reed,         var2: reed         }
+    - { scope: sniper_02,  icon: prospecta_default,       var1: Default,      var2: default      }
+    - { scope: sniper_02,  icon: prospecta_military1,     var1: Military_1,   var2: military1    }
+    - { scope: sniper_02,  icon: prospecta_military2,     var1: Military_2,   var2: military2    }
+    - { scope: sniper_02,  icon: prospecta_neon1,         var1: Neon_1,       var2: neon1        }
+    - { scope: sniper_02,  icon: prospecta_neon2,         var1: Neon_2,       var2: neon2        }
+    - { scope: sniper_02,  icon: prospecta_pimp1,         var1: Pimp_1,       var2: pimp1        }
+    - { scope: sniper_02,  icon: prospecta_pimp2,         var1: Pimp_2,       var2: pimp2        }
   iconPath: ${icon}
   appearanceName: ${var2}
   displayName: LocKey#Mod-ICM-CASV-${scope}_${var1}
@@ -194,10 +184,10 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     - { scope: long_06,    var1: Pimp_2,      var2: pimp2       }
     
     - { scope: short_06,   var1: Default,     var2: default     }
+    - { scope: short_06,   var1: Neon_1,      var2: neon1       }
+    - { scope: short_06,   var1: Neon_2,      var2: neon2       } #the following Handymans don't exist, saved them only for compatibility and they'll be removed in the future
     - { scope: short_06,   var1: Military_1,  var2: military1   }
     - { scope: short_06,   var1: Military_2,  var2: military2   }
-    - { scope: short_06,   var1: Neon_1,      var2: neon1       }
-    - { scope: short_06,   var1: Neon_2,      var2: neon2       }
     - { scope: short_06,   var1: Pimp_1,      var2: pimp1       }
     - { scope: short_06,   var1: Pimp_2,      var2: pimp2       }
 
@@ -275,6 +265,7 @@ Items.Inepted_w_att_scope_${scope}_Legendary:
     - { scope: short_03_Neon_2      }
     - { scope: short_03_Pimp_1      }
     - { scope: short_03_Pimp_2      }
+    - { scope: short_03_Frank       }
     - { scope: short_04_Default     }
     - { scope: short_04_Military_1  }
     - { scope: short_04_Military_2  }
@@ -305,20 +296,24 @@ Items.Inepted_w_att_scope_${scope}_Legendary:
 Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
   $base: Items.Inepted_w_att_scope_${scope}_Legendary
   $instances:
-    - { scope: long_04,    icon: saika_default,         var1: Default,      var2: default     }
-    - { scope: long_04,    icon: saika_military1,       var1: Military_1,   var2: military1   }
-    - { scope: long_04,    icon: saika_military2,       var1: Military_2,   var2: military2   }
-    - { scope: long_04,    icon: saika_neon1,           var1: Neon_1,       var2: neon1       }
-    - { scope: long_04,    icon: saika_neon2,           var1: Neon_2,       var2: neon2       }
-    - { scope: long_04,    icon: saika_pimp1,           var1: Pimp_1,       var2: pimp1       }
-    - { scope: long_04,    icon: saika_pimp2,           var1: Pimp_2,       var2: pimp2       }
-    - { scope: sniper_01,  icon: kanone_max_default,    var1: Default,      var2: default     }
-    - { scope: sniper_01,  icon: kanone_max_military1,  var1: Military_1,   var2: military1   }
-    - { scope: sniper_01,  icon: kanone_max_military2,  var1: Military_2,   var2: military2   }
-    - { scope: sniper_01,  icon: kanone_max_neon1,      var1: Neon_1,       var2: neon1       }
-    - { scope: sniper_01,  icon: kanone_max_neon2,      var1: Neon_2,       var2: neon2       }
-    - { scope: sniper_01,  icon: kanone_max_pimp1,      var1: Pimp_1,       var2: pimp1       }
-    - { scope: sniper_01,  icon: kanone_max_pimp2,      var1: Pimp_2,       var2: pimp2       }
+    - { scope: long_04,    icon: saika_default,           var1: Default,      var2: default       }
+    - { scope: long_04,    icon: saika_military1,         var1: Military_1,   var2: military1     }
+    - { scope: long_04,    icon: saika_military2,         var1: Military_2,   var2: military2     }
+    - { scope: long_04,    icon: saika_neon1,             var1: Neon_1,       var2: neon1         }
+    - { scope: long_04,    icon: saika_neon2,             var1: Neon_2,       var2: neon2         }
+    - { scope: long_04,    icon: saika_pimp1,             var1: Pimp_1,       var2: pimp1         }
+    - { scope: long_04,    icon: saika_pimp2,             var1: Pimp_2,       var2: pimp2         }
+    - { scope: sniper_01,  icon: kanone_max_default,      var1: Default,      var2: default       }
+    - { scope: sniper_01,  icon: kanone_max_military1,    var1: Military_1,   var2: military1     }
+    - { scope: sniper_01,  icon: kanone_max_military2,    var1: Military_2,   var2: military2     }
+    - { scope: sniper_01,  icon: kanone_max_neon1,        var1: Neon_1,       var2: neon1         }
+    - { scope: sniper_01,  icon: kanone_max_neon2,        var1: Neon_2,       var2: neon2         }
+    - { scope: sniper_01,  icon: kanone_max_pimp1,        var1: Pimp_1,       var2: pimp1         }
+    - { scope: sniper_01,  icon: kanone_max_pimp2,        var1: Pimp_2,       var2: pimp2         }
+    - { scope: sniper_01,  icon: kanone_max_panam,        var1: Panam,        var2: panam         }
+    - { scope: sniper_01,  icon: kanone_max_buck,         var1: Buck,         var2: buck          }
+    - { scope: sniper_01,  icon: kanone_max_breakthrough, var1: Breakthrough, var2: breakthrough  }
+    - { scope: sniper_01,  icon: kanone_max_neon2,        var1: Reed,         var2: reed          }
   iconPath: ${icon}
   appearanceName: ${var2}
   displayName: LocKey#Mod-ICM-CASV-${scope}_${var1}
@@ -338,10 +333,10 @@ Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
     - { scope: long_05,    var1: Pimp_2,      var2: pimp2       }
     
     - { scope: short_06,   var1: Default,     var2: default     }
-    - { scope: short_06,   var1: Military_1,  var2: military1   }
-    - { scope: short_06,   var1: Military_2,  var2: military2   }
     - { scope: short_06,   var1: Neon_1,      var2: neon1       }
-    - { scope: short_06,   var1: Neon_2,      var2: neon2       }
+    - { scope: short_06,   var1: Neon_2,      var2: neon2       } #the following Handymans don't exist, saved them only for compatibility and they'll be removed in the future
+    - { scope: short_06,   var1: Military_1,  var2: military1   } 
+    - { scope: short_06,   var1: Military_2,  var2: military2   }
     - { scope: short_06,   var1: Pimp_1,      var2: pimp1       }
     - { scope: short_06,   var1: Pimp_2,      var2: pimp2       }
 

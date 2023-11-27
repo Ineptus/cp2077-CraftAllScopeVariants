@@ -1,0 +1,28 @@
+#==============   IneptedCyberMods    ==============#
+#===========  Craft All Scope Variants!  ===========#
+
+
+#=================   change.log    =================#
+
+
+0.2.1: First release
+0.3.7:
+
+  1) Fix to legendary versions – scopes which already had their legendary version, now are correctly based on it – applies to SO-21 Saika, Jue, Handyman, Kanetsugu, HPO Kanone MAX Mk.77, and Gaki. It fixes e.g. Scopes that Scope settings for legendary versions
+
+  2) 'Removed' non-existing variants, which I accidently added: both of Handyman military and pimp versions – they still exist, so no one finds their weapon disappeared, but are labelled as mistake and cannot be crafted or equipped – disassemble them at once!
+
+  3) Added new variants!
+   – Add-Vantage: Frank
+   – HPO Kanone MAX Mk.77: Panam, Buck, Breakthrough and Reed
+
+
+
+
+
+
+######    Released  into  the  cyberspace      ######     
+######    with dual compliment-the-cat clause  ######
+######    as  described  in  license.cat       ######
+######                                         ######
+######### (ɔɔ) 2077-2137 All cats're served #########

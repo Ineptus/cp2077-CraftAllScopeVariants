@@ -3,9 +3,9 @@
     "WolvenKitVersion": "8.11.1",
     "WKitJsonVersion": "0.0.8",
     "GameVersion": 2020,
-    "ExportedDateTime": "2023-11-17T08:33:42.3411076Z",
+    "ExportedDateTime": "2023-11-27T01:15:12.3858790Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "C:\\Users\\Kuba\\CP2077 Moding\\PROJECTS\\Craft All Scope Variants\\source\\archive\\base\\localization\\en-us.json"
+    "ArchiveFileName": "C:\\Users\\Kuba\\CP2077 Moding\\PROJECTS\\CraftAllScopeVariants\\source\\archive\\base\\localization\\en-us.json"
   },
   "Data": {
     "Version": 195,
@@ -363,6 +363,13 @@
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Frank]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Frank"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
               "femaleVariant": "CQO Kanone MINI Mk.72 [Default]",
               "maleVariant": "",
               "primaryKey": "0",
@@ -507,6 +514,34 @@
               "maleVariant": "",
               "primaryKey": "0",
               "secondaryKey": "Mod-ICM-CASV-sniper_01_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Panam]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Panam"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Buck]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Buck"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Breakthrough]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Breakthrough"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Reed]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Reed"
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
@@ -664,14 +699,14 @@
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
-              "femaleVariant": "Handyman [Military 1]",
+              "femaleVariant": "[Mistake – disassemble this scope]",
               "maleVariant": "",
               "primaryKey": "0",
               "secondaryKey": "Mod-ICM-CASV-short_06_Military_1"
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
-              "femaleVariant": "Handyman [Military 2]",
+              "femaleVariant": "[Mistake – disassemble this scope]",
               "maleVariant": "",
               "primaryKey": "0",
               "secondaryKey": "Mod-ICM-CASV-short_06_Military_2"
@@ -692,14 +727,14 @@
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
-              "femaleVariant": "Handyman [Pimp 1]",
+              "femaleVariant": "[Mistake – disassemble this scope]",
               "maleVariant": "",
               "primaryKey": "0",
               "secondaryKey": "Mod-ICM-CASV-short_06_Pimp_1"
             },
             {
               "$type": "localizationPersistenceOnScreenEntry",
-              "femaleVariant": "Handyman [Pimp 2]",
+              "femaleVariant": "[Mistake – disassemble this scope]",
               "maleVariant": "",
               "primaryKey": "0",
               "secondaryKey": "Mod-ICM-CASV-short_06_Pimp_2"

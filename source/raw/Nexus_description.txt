@@ -5,7 +5,7 @@
 [size=4][/size] — Check/install/update requirements
  — Extract the archive into the game’s main directory
 
-[size=4][color=#FCEE09][2]: [/color][color=#00F0FF]Read key facts below[/color][/size]
+[size=4][color=#FCEE09][2]: [/color][color=#00F0FF]Read the key facts below[/color][/size]
 
 [size=4][color=#FCEE09][3A]: [/color][color=#00F0FF]Buy recipes from different weapon vendors[/color][/size]
 [size=4][/size] — Good ol’ Wilson – epic short scopes
@@ -17,7 +17,7 @@
 
 [size=4][color=#FCEE09][3B]: [/color][color=#00F0FF]Or spawn scopes or recipes using CET console[/color][/size]
 
- [color=#FCEE09][size=3][examples]:[/size][/color]
+ [size=3][color=#FCEE09][ex]: [/color][color=#00F0FF]amples[/color][/size]
 
  [b]Epic ClearVue Mk.3 in orange:[/b]
  [color=#cccccc][code]Game.AddToInventory(“Items.Inepted_w_att_scope_long_03_Neon_1”, 1);[/code][/color]
@@ -37,12 +37,21 @@
 [size=4][/size] and report bugs
 
 [size=4][color=#FCEE09][KEY]: [/color][color=#00F0FF]facts[/color][/size]
-[size=5][/size] [color=#FCEE09]—[/color] This mod doesn't replace existing scopes (let's call them "normal"), these can be looted, awarded, bought as before, and they're still "random"
-[size=5][/size] [color=#FCEE09]—[/color] There are 7 variants: Default, Military 1 & 2, Neon 1 & 2, and Pimp 1 & 2. All of them appear in the "normal" scopes, but they are usually randomly assigned and are indistinguishable in the inventory.
-[size=5][/size] [color=#FCEE09]—[/color] The mod simply adds new craftable versions of scopes for each variant of each scope, in two tiers: epic and legendary. Each "new" scope has its visual variant attached to the name and, if available, uses variant-specific icon. Currently they can be only crafted or spawned.
-[size=5][/size] [color=#FCEE09]—[/color] About the icons: Most of the scopes have already variant-specific icons available in game files (sic!), these can be easily distinguished in the inventory. Unfortunately, Jue, Kairo SA-1, Handyman, Kanetsugu, and Gaki have just a default icon. You need to use the names until someone (maybe me one day) creates the icons for them.
-
-
+[size=5][/size] [color=#FCEE09]>[/color] This mod doesn't replace existing scopes (let's call them "normal"), these can be looted, awarded, bought as before, and they're still "random"
+[size=5][/size] [color=#FCEE09]>[/color] The mod simply adds new craftable versions of scopes for each variant of each scope, in two tiers: epic and legendary. Each "new" scope has its visual variant attached to the name and, if available, uses variant-specific icon. Currently they can be only crafted or spawned.
+[size=5][/size] [color=#FCEE09]>[/color] About the icons: Most of the scopes have already variant-specific icons available in game files (sic!), these can be easily distinguished in the inventory. Unfortunately, Jue, Kairo SA-1, Handyman, Kanetsugu, and Gaki have just a default icon. You need to use the names until someone (maybe me one day) creates the icons for them.
+[size=5][/size] [color=#FCEE09]>[/color] Most of the scopes come in 7 variants: [color=#FCEE09][Default][/color], [color=#FCEE09][Military 1/2][/color], [color=#FCEE09][Neon 1/2][/color], and [color=#FCEE09][Pimp 1/2][/color]. All of them appear in the "normal" scopes, but they are usually randomly assigned and are indistinguishable in the inventory.
+[size=5][/size]  [color=#FCEE09][exceptions]:[/color]
+  [color=#FCEE09]>>[/color] [color=#00F0FF]Add-Vantage[/color] has additional [color=#FCEE09][Frank][/color] variant
+  [color=#FCEE09]>>[/color] [color=#00F0FF]Handyman[/color] comes only in [color=#FCEE09][Default][/color] and two [color=#FCEE09][Neon][/color] variants
+  [color=#FCEE09]>>[/color] [color=#00F0FF]HPO Kanone MAX Mk.77[/color] has additional [color=#FCEE09][Panam][/color], [color=#FCEE09][Buck][/color], [color=#FCEE09][Breakthrough][/color], and [color=#FCEE09][Reed][/color] variants
+[size=5][/size] [color=#FCEE09]>[/color] Some of the scopes already have legendary versions in the game: SO-21 Saika, Jue, Handyman, Kanetsugu, HPO Kanone MAX Mk.77, and Gaki – so they will have appropriate stats or descriptions when crafted to legendary tier. The rest have their legendary versions based on their epic ones, so the stats will be just a little better – because of quality scaling.
+[size=5][/size] [color=#FCEE09]>[/color] I allowed myself a little freedom with possible scopes lists, so you can put scopes created with this mod as follows:
+  [color=#FCEE09]>>[/color] [color=#00F0FF]RiflePossibleScopesList:[/color] all long, all short, and E305 Prospecta
+  [color=#FCEE09]>>[/color] [color=#00F0FF]HandgunPossibleScopesList:[/color] all short, and E305 Prospecta
+  [color=#FCEE09]>>[/color] [color=#00F0FF]NekomataPossibleScopesList:[/color] all sniper
+  [color=#FCEE09]>>[/color] [color=#00F0FF]GradPossibleScopesList:[/color] all sniper
+  [color=#FF003C][b][!][/b] [/color]You can modify this in: [code]﻿\r6\tweaks\CraftAllScopeVariants\PossibleScopesListsPopulator.yaml [/code]
 
 [size=4][color=#FCEE09][REF]: [/color][color=#00F0FF]sheet[/color][/size]
 

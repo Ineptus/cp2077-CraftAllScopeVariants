@@ -2,7 +2,7 @@
 
 Name: Craft All Scope Variants
 Author: Ineptus
-Version: 0.2.1
+Version: 0.3.7
 Requirements:
   - TweakXL 1.5.2+
   - ArchiveXL 1.8.1+

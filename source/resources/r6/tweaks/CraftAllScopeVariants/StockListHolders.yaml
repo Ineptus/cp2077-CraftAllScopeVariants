@@ -136,6 +136,8 @@ Vendors.IneptedEpicShortScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Epic"
       quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Frank_Epic"
+      quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_04_Default_Epic"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_04_Military_1_Epic"
@@ -166,17 +168,9 @@ Vendors.IneptedEpicShortScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_06_Default_Epic"
       quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Military_1_Epic"
-      quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Military_2_Epic"
-      quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Epic"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Epic"
-      quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Pimp_1_Epic"
-      quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Pimp_2_Epic"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_07_Default_Epic"
       quantity: [ Vendors.Always_Present ]
@@ -209,6 +203,14 @@ Vendors.IneptedEpicSniperScopeRecipesStockListHolder:
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Epic"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Epic"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Panam_Epic"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Buck_Epic"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Breakthrough_Epic"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Reed_Epic"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Epic"
       quantity: [ Vendors.Always_Present ]
@@ -374,6 +376,8 @@ Vendors.IneptedLegendaryShortScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Legendary"
       quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Frank_Legendary"
+      quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_04_Default_Legendary"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_04_Military_1_Legendary"
@@ -404,17 +408,9 @@ Vendors.IneptedLegendaryShortScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_06_Default_Legendary"
       quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Military_1_Legendary"
-      quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Military_2_Legendary"
-      quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Legendary"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Legendary"
-      quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Pimp_1_Legendary"
-      quantity: [ Vendors.Always_Present ]
-    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Pimp_2_Legendary"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_short_07_Default_Legendary"
       quantity: [ Vendors.Always_Present ]
@@ -447,6 +443,14 @@ Vendors.IneptedLegendarySniperScopeRecipesStockListHolder:
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Legendary"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Legendary"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Panam_Legendary"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Buck_Legendary"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Breakthrough_Legendary"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Reed_Legendary"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Legendary"
       quantity: [ Vendors.Always_Present ]

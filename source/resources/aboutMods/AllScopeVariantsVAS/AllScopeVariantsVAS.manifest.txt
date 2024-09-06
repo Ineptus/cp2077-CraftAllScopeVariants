@@ -2,7 +2,7 @@
 
 Name: All Scope Variants – Virtual Atelier Store [alternative version of CraftAllScopeVariants]
 Author: Ineptus
-Version: 0.6.0 – VAS 3.0
+Version: 0.6.0 – VAS 3.1
 Compatible with Cyberpunk 2077 2.0-2.1
 
 Requirements:

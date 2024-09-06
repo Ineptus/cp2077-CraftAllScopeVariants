@@ -815,7 +815,7 @@ protected cb func RegisterALLSCOPEVARIANTSATELIERStore(event: ref<VirtualShopReg
     249,
     249,
     249],
-    r"base/gameplay/gui/common/icons/items/item_icons13.inkatlas",
+    r"base/gameplay/gui/common/icons/items/item_icons12.inkatlas",
     n"grandstand_neon2",
     ["Epic",
     "Epic",

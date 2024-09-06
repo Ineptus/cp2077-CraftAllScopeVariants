@@ -58,6 +58,10 @@ VAS.3.0
 
   1) Fix for disappeared Virtual Atelier shops icons in Cyberpunk 2.1 – changed to new icon paths
   2) Added rare variants for ClearVue Mk.8, Kairo SA-1, Hyakume, and CQO Kanone MINI Mk.72
+  
+VAS.3.1
+
+  1) Updated icon paths
 
 
 ######    Released  into  the  cyberspace      ######     

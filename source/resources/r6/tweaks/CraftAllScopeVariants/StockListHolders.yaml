@@ -75,6 +75,8 @@ Vendors.IneptedEpicLongScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_long_05_Pimp_2_Epic"
       quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_05_Grey_Epic"
+      quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_long_06_Default_Epic"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_long_06_Military_1_Epic"
@@ -315,6 +317,8 @@ Vendors.IneptedLegendaryLongScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_long_05_Pimp_2_Legendary"
       quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_05_Grey_Legendary"
+      quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_long_06_Default_Legendary"
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_long_06_Military_1_Legendary"
@@ -480,8 +484,379 @@ Vendors.IneptedLegendarySniperScopeRecipesStockListHolder:
       quantity: [ Vendors.Always_Present ]
     - item: "Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_2_Legendary"
       quantity: [ Vendors.Always_Present ]
+
+
+Vendors.IneptedRareAllScopeRecipesStockListHolder:
+  $type: Vendor
+  itemStock:
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_03_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_06_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_02_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Frank_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_04_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Panam_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Buck_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Breakthrough_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Reed_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Military_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Military_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_1_Rare"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_2_Rare"
+      quantity: [ Vendors.Always_Present ]
+
+
+Vendors.IneptedUncommonAllScopeRecipesStockListHolder:
+  $type: Vendor
+  itemStock:
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Military_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Military_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Pimp_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Pimp_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Military_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Military_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Pimp_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Pimp_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Military_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Military_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Pimp_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Pimp_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Military_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Military_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Frank_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Military_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Military_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Panam_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Buck_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Breakthrough_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Reed_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Military_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Military_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_1_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_2_Uncommon"
+      quantity: [ Vendors.Always_Present ]
+
+
+Vendors.IneptedCommonAllScopeRecipesStockListHolder:
+  $type: Vendor
+  itemStock:
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Military_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Military_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Pimp_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_01_Pimp_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Military_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Military_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Pimp_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_long_02_Pimp_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Military_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Military_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Pimp_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_01_Pimp_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Military_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Military_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_03_Frank_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Military_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Military_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Panam_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Buck_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Breakthrough_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_01_Reed_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Military_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Military_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_2_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_1_Common"
+      quantity: [ Vendors.Always_Present ]
+    - item: "Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_2_Common"
+      quantity: [ Vendors.Always_Present ]
       
-      
+
 
 ######    Released  into  the  cyberspace      ######     
 ######    with dual compliment-the-cat clause  ######

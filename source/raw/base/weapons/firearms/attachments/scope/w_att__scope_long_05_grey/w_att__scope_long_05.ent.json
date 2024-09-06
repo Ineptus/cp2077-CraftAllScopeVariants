@@ -1,0 +1,394 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.1",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2020,
+    "ExportedDateTime": "2023-12-07T10:30:53.3576949Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Kuba\\CP2077 Moding\\PROJECTS\\CraftAllScopeVariants\\source\\archive\\base\\weapons\\firearms\\attachments\\scope\\w_att__scope_long_05_grey\\w_att__scope_long_05.ent"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "entEntityTemplate",
+      "appearances": [],
+      "backendDataOverrides": [],
+      "bindingOverrides": [],
+      "compiledData": {
+        "BufferId": "0",
+        "Flags": 4063232,
+        "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null",
+        "Data": {
+          "Version": 4,
+          "Sections": 7,
+          "CruidIndex": 0,
+          "CruidDict": {
+            "0": "0",
+            "1": "2089515125852639232",
+            "2": "2089515125869416448"
+          },
+          "Chunks": [
+            {
+              "$type": "entEntity",
+              "customCameraTarget": "ECCTV_All",
+              "renderSceneLayerMask": "Default"
+            },
+            {
+              "$type": "entAnimatedComponent",
+              "animations": {
+                "$type": "animAnimSetup",
+                "cinematics": [],
+                "gameplay": [],
+                "hash": "1099511628211"
+              },
+              "animParameters": [
+                {
+                  "$type": "entAnimTrackParameter",
+                  "animTrackName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "visibleWhenAiming"
+                  },
+                  "defaultValue": 0,
+                  "parameterName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "visibleWhenAiming"
+                  }
+                },
+                {
+                  "$type": "entAnimTrackParameter",
+                  "animTrackName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "invisibleWhenAiming"
+                  },
+                  "defaultValue": 1,
+                  "parameterName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "invisibleWhenAiming"
+                  }
+                }
+              ],
+              "animTags": {
+                "$type": "redTagList",
+                "tags": []
+              },
+              "audioAltName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "calculateAccelerationWs": 0,
+              "clientForcedLod": -1,
+              "clientForcedVisibility": 0,
+              "controlBinding": {
+                "HandleId": "0",
+                "Data": {
+                  "$type": "entAnimationControlBinding",
+                  "bindName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "External4323"
+                  },
+                  "enabled": 1,
+                  "enableMask": {
+                    "$type": "entTagMask",
+                    "excludedTags": {
+                      "$type": "redTagList",
+                      "tags": [
+                        {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "NoBinding"
+                        }
+                      ]
+                    },
+                    "hardTags": {
+                      "$type": "redTagList",
+                      "tags": []
+                    },
+                    "softTags": {
+                      "$type": "redTagList",
+                      "tags": []
+                    }
+                  }
+                }
+              },
+              "facialSetup": {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "uint64",
+                  "$value": "0"
+                },
+                "Flags": "Default"
+              },
+              "graph": {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "base\\gameplay\\anim_graphs\\weapon.animgraph"
+                },
+                "Flags": "Obligatory"
+              },
+              "id": "2089515125852639232",
+              "isReplicable": 0,
+              "localTransform": {
+                "$type": "WorldTransform",
+                "Orientation": {
+                  "$type": "Quaternion",
+                  "i": 0,
+                  "j": 0,
+                  "k": 0,
+                  "r": 1
+                },
+                "Position": {
+                  "$type": "WorldPosition",
+                  "x": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  },
+                  "y": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  },
+                  "z": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  }
+                }
+              },
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "Scope"
+              },
+              "parentTransform": {
+                "HandleId": "1",
+                "Data": {
+                  "$type": "entHardTransformBinding",
+                  "bindName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "External4323"
+                  },
+                  "enabled": 1,
+                  "enableMask": {
+                    "$type": "entTagMask",
+                    "excludedTags": {
+                      "$type": "redTagList",
+                      "tags": [
+                        {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "NoBinding"
+                        }
+                      ]
+                    },
+                    "hardTags": {
+                      "$type": "redTagList",
+                      "tags": []
+                    },
+                    "softTags": {
+                      "$type": "redTagList",
+                      "tags": []
+                    }
+                  },
+                  "slotName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  }
+                }
+              },
+              "rig": {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "base\\weapons\\firearms\\attachments\\scope\\w_att__scope_long_05_grey\\rig\\w_att__scope_long_05.rig"
+                },
+                "Flags": "Obligatory"
+              },
+              "serverForcedLod": -1,
+              "serverForcedVisibility": 0,
+              "useLongRangeVisibility": 0
+            },
+            {
+              "$type": "entExternalComponent",
+              "externalComponentName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "Barrel"
+              },
+              "id": "2089515125869416448",
+              "isReplicable": 0,
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "External4323"
+              }
+            }
+          ]
+        }
+      },
+      "compiledEntityLODFlags": 0,
+      "componentResolveSettings": [],
+      "components": [
+        {
+          "$type": "entAnimatedComponent",
+          "animations": {
+            "$type": "animAnimSetup",
+            "cinematics": [],
+            "gameplay": [],
+            "hash": "1099511628211"
+          },
+          "animParameters": [
+            {
+              "$type": "entAnimTrackParameter",
+              "animTrackName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "visibleWhenAiming"
+              },
+              "defaultValue": 0,
+              "parameterName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "visibleWhenAiming"
+              }
+            },
+            {
+              "$type": "entAnimTrackParameter",
+              "animTrackName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "invisibleWhenAiming"
+              },
+              "defaultValue": 1,
+              "parameterName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "invisibleWhenAiming"
+              }
+            }
+          ],
+          "animTags": {
+            "$type": "redTagList",
+            "tags": []
+          },
+          "audioAltName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "calculateAccelerationWs": 0,
+          "clientForcedLod": -1,
+          "clientForcedVisibility": 0,
+          "controlBinding": {
+            "HandleRefId": "0"
+          },
+          "facialSetup": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "Flags": "Default"
+          },
+          "graph": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\gameplay\\anim_graphs\\weapon.animgraph"
+            },
+            "Flags": "Obligatory"
+          },
+          "id": "2089515125852639232",
+          "isReplicable": 0,
+          "localTransform": {
+            "$type": "WorldTransform",
+            "Orientation": {
+              "$type": "Quaternion",
+              "i": 0,
+              "j": 0,
+              "k": 0,
+              "r": 1
+            },
+            "Position": {
+              "$type": "WorldPosition",
+              "x": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              },
+              "y": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              },
+              "z": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              }
+            }
+          },
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Scope"
+          },
+          "parentTransform": {
+            "HandleRefId": "1"
+          },
+          "rig": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\weapons\\firearms\\attachments\\scope\\w_att__scope_long_05_grey\\rig\\w_att__scope_long_05.rig"
+            },
+            "Flags": "Obligatory"
+          },
+          "serverForcedLod": -1,
+          "serverForcedVisibility": 0,
+          "useLongRangeVisibility": 0
+        },
+        {
+          "$type": "entExternalComponent",
+          "externalComponentName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Barrel"
+          },
+          "id": "2089515125869416448",
+          "isReplicable": 0,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "External4323"
+          }
+        }
+      ],
+      "cookingPlatform": "PLATFORM_PC",
+      "defaultAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "entity": {
+        "HandleId": "2",
+        "Data": {
+          "$type": "entEntity",
+          "customCameraTarget": "ECCTV_All",
+          "renderSceneLayerMask": "Default"
+        }
+      },
+      "includeInstanceBuffer": null,
+      "includes": [],
+      "inplaceResources": [],
+      "localData": null,
+      "resolvedDependencies": [],
+      "visualTagsSchema": null
+    },
+    "EmbeddedFiles": []
+  }
+}

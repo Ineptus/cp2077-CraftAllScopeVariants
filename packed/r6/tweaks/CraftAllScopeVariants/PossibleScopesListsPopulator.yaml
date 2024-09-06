@@ -2,6 +2,13 @@
 ######   Craft All Scope Variants!   ######
 
 
+#== REF: ================================================================================================#
+# Items.IneptedLongScopes.itemPartList       – all long scopes added by this mod                         #
+# Items.IneptedShortScopes.itemPartList      – all short scopes added by this mod                        #
+# Items.IneptedSniperScopes.itemPartList     – all sniper scopes added by this mod (including Prospecta) #
+# Items.IneptedProspectaScopes.itemPartList  – all sniper_02 scopes added by this mod                    #
+#========================================================================================================#
+
 Items.RiflePossibleScopesList.itemPartList:
   - !append-from Items.IneptedLongScopes.itemPartList
   - !append-from Items.IneptedShortScopes.itemPartList
@@ -10,12 +17,17 @@ Items.RiflePossibleScopesList.itemPartList:
 Items.HandgunPossibleScopesList.itemPartList:
   - !append-from Items.IneptedShortScopes.itemPartList
   - !append-from Items.IneptedProspectaScopes.itemPartList
+  - !append-from Items.IneptedLongScopes.itemPartList
 
 Items.NekomataPossibleScopesList.itemPartList:
   - !append-from Items.IneptedSniperScopes.itemPartList
+  - !append-from Items.IneptedLongScopes.itemPartList
+  - !append-from Items.IneptedShortScopes.itemPartList
 
 Items.GradPossibleScopesList.itemPartList:
   - !append-from Items.IneptedSniperScopes.itemPartList
+  - !append-from Items.IneptedLongScopes.itemPartList
+  - !append-from Items.IneptedShortScopes.itemPartList
 
 
 ######    Released  into  the  cyberspace      ######     

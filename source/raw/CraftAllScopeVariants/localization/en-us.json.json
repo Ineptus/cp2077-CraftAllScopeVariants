@@ -1,0 +1,825 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.1",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2020,
+    "ExportedDateTime": "2023-12-04T19:44:27.7343532Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\Kuba\\CP2077 Moding\\PROJECTS\\CraftAllScopeVariants\\source\\archive\\base\\localization\\en-us.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceOnScreenEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Grandstand Mk.2x [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_01_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E255 Percipient [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_02_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "ClearVue Mk.8 [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_03_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SO-21 Saika [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_04_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "OS-1 GimletEye [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_01_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Hyakume [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_02_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Add-Vantage [Frank]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_03_Frank"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "CQO Kanone MINI Mk.72 [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_04_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type 2067 [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_05_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Panam]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Panam"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Buck]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Buck"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Breakthrough]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Breakthrough"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "HPO Kanone MAX Mk.77 [Reed]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_01_Reed"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "E305 Prospecta [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_02_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Jue [Grey]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_05_Grey"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kairo SA-1 [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-long_06_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Handyman [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_06_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Handyman [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_06_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Handyman [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_06_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Kanetsugu [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-short_07_Pimp_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Default]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Default"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Military 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Military_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Military 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Military_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Neon 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Neon_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Neon 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Neon_2"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Pimp 1]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Pimp_1"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Gaki [Pimp 2]",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "Mod-ICM-CASV-sniper_03_Pimp_2"
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

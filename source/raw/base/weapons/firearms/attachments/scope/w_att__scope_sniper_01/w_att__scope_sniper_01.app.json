@@ -3,9 +3,9 @@
     "WolvenKitVersion": "8.11.1",
     "WKitJsonVersion": "0.0.8",
     "GameVersion": 2020,
-    "ExportedDateTime": "2023-11-14T06:41:23.4836393Z",
+    "ExportedDateTime": "2023-12-13T21:19:31.7190278Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "C:\\Users\\Kuba\\Documents\\WKP\\ScopeGen\\source\\archive\\base\\weapons\\firearms\\attachments\\scope\\w_att__scope_sniper_01\\w_att__scope_sniper_01.app"
+    "ArchiveFileName": "C:\\Users\\Kuba\\CP2077 Moding\\PROJECTS\\CraftAllScopeVariants\\source\\archive\\base\\weapons\\firearms\\attachments\\scope\\w_att__scope_sniper_01\\w_att__scope_sniper_01.app"
   },
   "Data": {
     "Version": 195,
@@ -2676,7 +2676,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Default"
+                  "$value": "default"
                 }
               ]
             }
@@ -5574,7 +5574,13 @@
             ],
             "visualTags": {
               "$type": "redTagList",
-              "tags": []
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "panam"
+                }
+              ]
             }
           }
         },
@@ -8230,7 +8236,13 @@
             ],
             "visualTags": {
               "$type": "redTagList",
-              "tags": []
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "buck"
+                }
+              ]
             }
           }
         },
@@ -13786,7 +13798,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Military_1"
+                  "$value": "military1"
                 }
               ]
             }
@@ -16688,7 +16700,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Military_2"
+                  "$value": "military2"
                 }
               ]
             }
@@ -19350,7 +19362,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Neon_1"
+                  "$value": "neon1"
                 }
               ]
             }
@@ -22252,7 +22264,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Neon_2"
+                  "$value": "neon2"
                 }
               ]
             }
@@ -24914,7 +24926,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Pimp_1"
+                  "$value": "pimp1"
                 }
               ]
             }
@@ -27576,7 +27588,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Pimp_2"
+                  "$value": "pimp2"
                 }
               ]
             }
@@ -30234,7 +30246,13 @@
             ],
             "visualTags": {
               "$type": "redTagList",
-              "tags": []
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "reed"
+                }
+              ]
             }
           }
         }

@@ -1,0 +1,86 @@
+
+
+
+
+
+==================    [CHOICE]: quick guide   ======================
+==================	  =====================	  ======================
+
+Feature	                    This mod	       CraftAllScopeVariants
+
+All scope variants	            +	                    +
+
+  Spawn with CET	            +	                    +
+
+  Buy with Virtual Atelier	    +	                optional
+
+  Buy on streets of NC	     optional               optional
+
+Crafting recipes             optional	                +
+
+  Spawn with CET	         optional	                +
+
+  Buy with Virtual Atelier	 optional	            optional
+  
+  Buy on streets of NC	     optional                   +
+  
+  
+  
+[table]
+  [tr]
+    [th][/th]
+    [th][CHOICE]: quick guide[/th]
+    [th][CHOICE]: quick guide[/th]
+  [/tr]
+  [tr]
+    [td]==================[/td]
+    [td]==================[/td]
+    [td]==================[/td]
+  [/tr]
+    [tr]
+    [td]Feature[/td]
+    [td]This mod[/td]
+    [td]CraftAllScopeVariants[/td]
+  [/tr]
+  [tr]
+    [td][color=#FCEE09]All scope variants[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+  [/tr]
+  [tr]
+    [td][color=#FCEE09]Spawn with CET[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+  [/tr]
+  [tr]
+    [td][color=#FCEE09]Buy with Virtual Atelier[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+    [td][color=#00F0FF]optional[/color][/td]
+  [/tr]
+  [tr]
+    [td][color=#FCEE09]Crafting recipes[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+    [td][color=#00F0FF]+[/color][/td]
+  [/tr]
+[/table]
+
+
+
+
+[table][tr]
+[td][/td] [td][CHOICE]: quick guide[/td] [td][/td]
+[/tr][tr]
+[td]=====================[/td][td]=====================[/td][td]=====================[/td]
+[/tr][tr]
+[td]Feature[/td] [td]This mod[/td] [td]CraftAllScopeVariants[/td]
+[/tr][tr]
+[td][color=#FCEE09]All scope variants[/color][/td] [td][color=#00F0FF]+[/color][/td] [td][color=#00F0FF]+[/color][/td]
+[/tr][tr]
+[td][color=#FCEE09]Spawn with CET[/color][/td] [td][color=#00F0FF]+[/color][/td] [td][color=#00F0FF]+[/color][/td]
+[/tr][tr] 
+[td][color=#FCEE09]Buy with Virtual Atelier[/color][/td] [td][color=#00F0FF]+[/color][/td] [td][color=#00F0FF]optional[/color][/td]
+[/tr][tr]
+[td][color=#FCEE09]Crafting recipes[/color][/td] [td][color=#00F0FF]+[/color][/td] [td][color=#00F0FF]+[/color][/td]
+[/tr][tr]
+[td]=====================[/td] [td]=====================[/td] [td]=====================[/td]
+[/tr][/table]

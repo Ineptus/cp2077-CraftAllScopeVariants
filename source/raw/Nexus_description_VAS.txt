@@ -1,0 +1,90 @@
+[size=4][color=#F3E600][0]: [/color][color=#00F0FF]Requirements[/color][/size]
+[size=4][/size] — Cyberpunk 2077 2.0+ [color=#F3E600](compatible with 2.1)[/color]
+ — [color=#00F0FF]mods:[/color] ArchiveXL [u]1.9.0+[/u] [color=#F3E600][!][/color], TweakXL 1.5.2+, Virtual Atelier 1.2.0+ – and their dependencies respectively
+ — [color=#00F0FF]in-game:[/color] own computer with access to the Net and at least [color=#ffce40]€$149[/color].
+
+[size=4][color=#F3E600][1]: [/color][color=#00F0FF]Read the key facts below[/color][/size]
+
+[size=4][color=#F3E600][2]: [/color][color=	]Installation[/color][/size]
+[size=4][/size] — Check/install/update requirements – e.g. Virtual Atelier mod is quite important
+ — Extract the archive into the game’s main directory
+ — If installing along/after  [url=https://www.nexusmods.com/cyberpunk2077/mods/11035]Craft All Scope Variants mod[/url]:
+  —  both mods share most of the files and are generally compatible as long as their of the same major version (first two numbers, e.g. 0.5.x == 0.5.x-VAS.x.x)
+   –  when prompted just replace all the files, you'll get the sum of both version functionalities
+  —  in the case of diverging versions, bugs or any doubt – remove all of the other mod files before installing the new one
+  [color=#F3E600][!][/color] You can check the mod version and file structure in [code]/aboutMods/AllScopeVariantsVAS/AllScopeVariantsVAS.manifest.txt
+[/code]
+[size=4][color=#F3E600][3]: [/color][color=#00F0FF]Prepare[/color][/size]
+[size=4][/size] — Find a working computer with access to the Net
+ — Now do it again, but inside the Cyberpunk 2077 game
+
+[size=4][color=#F3E600][4]: [/color][color=#00F0FF]Consume![/color][/size]
+[size=4][/size] — Open [url=https://www.nexusmods.com/cyberpunk2077/mods/2987]Virtual Atelier[/url] store named [color=#F3E600][All Scope Variants Store][/color]
+ — Buy, buy, buy! Support your favourite corporations by buying more than you need.
+
+[size=4][color=#F3E600][5]: [/color][color=#00F0FF]Enjoy the product![/color][/size]
+[size=4][/size] and report bugs
+
+[size=4][color=#F3E600][KEY]: [/color][color=#00F0FF]facts[/color][/size]
+[size=5][/size] [color=#FF003C][b][!][/b][/color] This mod is a stand-alone alternative version of the [url=https://www.nexusmods.com/cyberpunk2077/mods/11035]Craft All Scope Variants mod[/url], with functionality tailored for a virtual shop. To decide which one is for you refer to the table:
+
+[code]                     [color=#F3E600][b]AllScopeVariantsVAS[/b][/color]   [color=#F3E600][b]CraftAllScopeVariants[/b][/color]
+                          (this one)          (original mod)
+[color=#00F0FF][b]All scope variants[/b][/color]             [color=#1AFE49]+[/color]         |          [color=#1AFE49]+[/color]
+ [color=#F3E600]>[/color] Spawn with CET              [color=#1AFE49]+[/color]         |          [color=#1AFE49]+[/color]
+ [color=#F3E600]>[/color] Virtual Atelier Store       [color=#1AFE49]+[/color]         |       [color=#d98f40][option][/color]
+ [color=#F3E600]>[/color] Buy from vendors            [color=#FF003C]–[/color][color=#A7A2B7]*[/color]        |          [color=#FF003C]–[/color][color=#A7A2B7]*[/color]
+[color=#00F0FF][b]Crafting recipes [/b][/color]              [color=#FF003C]–[/color]         |          [color=#1AFE49]+[/color]
+ [color=#F3E600]>[/color] Spawn with CET              [color=#FF003C]–[/color]         |          [color=#1AFE49]+[/color]
+ [color=#F3E600]>[/color] Virtual Atelier Store       [color=#FF003C]–[/color]         |       [color=#d98f40][option][/color]
+ [color=#F3E600]>[/color] Buy from vendors            [color=#FF003C]–[/color]         |          [color=#1AFE49]+[/color]
+[/code][color=#A7A2B7]* Would you like such an option?[/color]
+[size=5][/size] [color=#F3E600]>[/color] This [color=#00F0FF]mod doesn't replace[/color] existing scopes (let's call them "normal"), these can be looted, awarded, bought as before, and they're still "random"
+[size=5][/size] [color=#F3E600]>[/color] The [color=#00F0FF]mod[/color] simply [color=#00F0FF]adds new versions[/color] of scopes for each variant of each scope. Available qualities are listed below. Each "new" scope has its visual variant attached to the name and, if available, uses variant-specific icon.
+[size=5][/size] [color=#F3E600]>[/color] About the [color=#00F0FF]icons[/color]: Most of the scopes have already variant-specific icons available in game files (sic!), these can be easily distinguished in the inventory. Unfortunately, Jue, Kairo SA-1, Handyman, Kanetsugu, and Gaki have just a default icon. You need to use the names until someone (maybe me one day) creates the icons for them.
+[size=5][/size] [color=#F3E600]>[/color] Most of the scopes come in 7 variants: [color=#F3E600][Default][/color], [color=#F3E600][Military 1/2][/color], [color=#F3E600][Neon 1/2][/color], and [color=#F3E600][Pimp 1/2][/color]. All of them appear in the "normal" scopes, but they are usually randomly assigned and are indistinguishable in the inventory.
+[size=5][/size]  [color=#F3E600][exceptions]:[/color]
+  [color=#F3E600]>>[/color] [color=#00F0FF]Add-Vantage[/color] has additional [color=#F3E600][Frank][/color] variant
+  [color=#F3E600]>>[/color] [color=#00F0FF]Handyman[/color] comes only in [color=#F3E600][Default][/color] and two [color=#F3E600][Neon][/color] variants
+  [color=#F3E600]>>[/color] [color=#00F0FF]HPO Kanone MAX Mk.77[/color] has additional [color=#F3E600][Panam][/color], [color=#F3E600][Buck][/color], [color=#F3E600][Breakthrough][/color], and [color=#F3E600][Reed][/color] variants
+  [color=#F3E600]>>[/color] [color=#00F0FF]Jue[/color] has additional [color=#F3E600][Grey][/color] variant
+[size=5][/size] [color=#F3E600]>[/color] [color=#00F0FF]Qualities[/color] (tiers): 
+  [color=#F3E600]>>[/color] [color=#9D2BF5]Epic[/color] is default.
+  [color=#F3E600]>>[/color] [color=#FB932E]Legendary[/color] is available for all. Some of the scopes already have such versions in the game: SO-21 Saika, Jue, Handyman, Kanetsugu, HPO Kanone MAX Mk.77, and Gaki – so they will have appropriate stats or descriptions. The rest have their legendary versions based on their epic ones, so the stats will be just a little better – because of quality scaling.
+  [color=#F3E600]>>[/color] [color=#2570D4]Rare[/color] versions are available for: Grandstand Mk.2x, E255 Percipient, ClearVue Mk.8, Kairo SA-1, OS-1 GimletEye, Hyakume, Add-Vantage, CQO Kanone MINI Mk.72, Handyman, HPO Kanone MAX Mk.77, E305 Prospecta. (consistent with vanilla)
+  [color=#F3E600]>>[/color] [color=#1DED83]Uncommon[/color], and [color=#D6D0D0]common[/color] versions are available for: Grandstand Mk.2x, E255 Percipient, OS-1 GimletEye, Add-Vantage, Handyman, HPO Kanone MAX Mk.77, E305 Prospecta. (consistent with vanilla)
+[size=5][/size] [color=#F3E600]>[/color] I allowed myself a little freedom with possible scopes lists, so you can put scopes created with this mod as follows:
+  [color=#F3E600]>>[/color] [color=#00F0FF]RiflePossibleScopesList:[/color] all long, all short, and E305 Prospecta
+  [color=#F3E600]>>[/color] [color=#00F0FF]HandgunPossibleScopesList:[/color] all long, all short, and E305 Prospecta
+  [color=#F3E600]>>[/color] [color=#00F0FF]NekomataPossibleScopesList:[/color] all long, all short, and all sniper
+  [color=#F3E600]>>[/color] [color=#00F0FF]GradPossibleScopesList:[/color] all long, all short, and all sniper
+  [color=#F3E600][b][!][/b] [/color]You can modify this in: [code]﻿\r6\tweaks\CraftAllScopeVariants\PossibleScopesListsPopulator.yaml [/code]
+
+[size=4][color=#F3E600][REF]: [/color][color=#00F0FF]sheet[/color][/size]
+
+[code]﻿ long_01   - Grandstand Mk.2x
+ long_02   - E255 Percipient
+ long_03   - ClearVue Mk.8
+ long_04   - SO-21 Saika
+ long_05   - Jue
+ long_06   - Kairo SA-1
+ short_01  - OS-1 GimletEye
+ short_02  - Hyakume
+ short_03  - Add-Vantage
+ short_04  - CQO Kanone MINI Mk.72
+ short_05  - Type 2067
+ short_06  - Handyman
+ short_07  - Kanetsugu
+ sniper_01 - HPO Kanone MAX Mk.77
+ sniper_02 - E305 Prospecta
+ sniper_03 - Gaki
+[/code]
+
+[size=4][color=#F3E600][?]: [/color][color=#00F0FF]ideas[/color][/size]
+[size=4][/size] If you believe this mod should act in a different way – describe the idea in comments – I’ll consider it or help you alter the mod yourself.
+
+[size=4][color=#F3E600][Git]: [/color][color=#00F0FF][url=https://github.com/Ineptus/cp2077-CraftAllScopeVariants]Hub[/url][/color][/size]
+
+[size=4][color=#F3E600][T]: [/color][color=#00F0FF]hanks[/color][/size]
+[size=4][/size] —  to manavortex, psiberx, and the Discord Modding Community for all the help during the creation of this mod.
+ —  to Pacings and all responsible for the Virtual Atelier

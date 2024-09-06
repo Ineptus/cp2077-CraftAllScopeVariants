@@ -1,0 +1,656 @@
+1) Fix to legendary versions – scopes which already had their legendary version, now are correctly based on it – applies to SO-21 Saika, Jue, Handyman, Kanetsugu, HPO Kanone MAX Mk.77, and Gaki. It fixes e.g. Scopes that Scope settings for legendary versions
+
+2) 'Removed' non-existing variants, which I accidently added: both of Handyman military and pimp versions – they still exist, so no one finds their weapon disappeared, but are labelled as mistake and cannot be crafted or equipped – disassemble them at once!
+
+3) Added new variants!
+ – Add-Vantage: Frank
+ – HPO Kanone MAX Mk.77: Panam, Buck, Breakthrough and Reed
+
+
+
+No more random scope variants. No more guessing which one's which. Craft (or spawn), and choose the one you like.
+The mod creates separate item records for each scope visual variant using style-specific names and, if available, icons.
+
+
+{\r\n\titem = "\1";\r\n\tquantity =\r\n\t[\r\n\t\t"Vendors.Always_Present"\r\n\t];\r\n},
+
+(Items.Inepted.+)
+{\r\n\titem = "\1";\r\n},
+
+
+scope_(.+)
+
+{\r\n  "\$type"\: "localizationPersistenceOnScreenEntry",\r\n  "femaleVariant"\: "value_\1",\r\n  "maleVariant"\: "",\r\n  "primaryKey"\: "0",\r\n  "secondaryKey"\: "Mod-ICM-HFS-\1"\r\n},\r\n
+
+long_01    Grandstand Mk.2x
+long_02    E255 Percipient
+long_03    ClearVue Mk.8
+long_04    SO-21 Saika
+long_05    Jue
+long_06    Kairo SA-1
+short_01   OS-1 GimletEye
+short_02   Hyakume
+short_03   Add-Vantage
+short_04   CQO Kanone MINI Mk.72
+short_05   Type 2067
+short_06   Handyman
+short_07   Kanetsugu
+sniper_01  HPO Kanone MAX Mk.77
+sniper_02  E305 Prospecta
+sniper_03  Gaki
+
+
+
+# long_01    grandstand_default
+# long_02    percipient_deafult
+# long_03    clearvue_default
+# long_04    saika_default
+# long_05    w_att__scope_long_05
+# long_06    kairo
+# short_01   gimleteye_default
+# short_02   hyakume_default
+# short_03   add_vantage_default
+# short_04   kanone_mini_default
+# short_05   type_2067_default
+# short_06   w_att_scope_short_06
+# short_07   w_att_scope_short_07
+# sniper_01  kanone_max_default
+# sniper_02  prospecta_default
+# sniper_03  w_att__scope_sniper_03
+
+# long_01    grandstand
+# long_02    percipient
+# long_03    clearvue
+# long_04    saika
+# long_05    jue
+# long_06    kairo
+# short_01   gimleteye
+# short_02   hyakume
+# short_03   add_vantage
+# short_04   kanone_mini
+# short_05   type_2067
+# short_06   handyman
+# short_07   kanetsugu
+# sniper_01  kanone_max
+# sniper_02  prospecta
+# sniper_03  gaki
+ 
+ 
+# Scopes with all variant icons
+ 
+ 
+Items.Inepted_w_att_scope_long_01_Default
+Items.Inepted_w_att_scope_long_01_Military_1
+Items.Inepted_w_att_scope_long_01_Military_2
+Items.Inepted_w_att_scope_long_01_Neon_1
+Items.Inepted_w_att_scope_long_01_Neon_2
+Items.Inepted_w_att_scope_long_01_Pimp_1
+Items.Inepted_w_att_scope_long_01_Pimp_2
+Items.Inepted_w_att_scope_long_02_Default
+Items.Inepted_w_att_scope_long_02_Military_1
+Items.Inepted_w_att_scope_long_02_Military_2
+Items.Inepted_w_att_scope_long_02_Neon_1
+Items.Inepted_w_att_scope_long_02_Neon_2
+Items.Inepted_w_att_scope_long_02_Pimp_1
+Items.Inepted_w_att_scope_long_02_Pimp_2
+Items.Inepted_w_att_scope_long_03_Default
+Items.Inepted_w_att_scope_long_03_Military_1
+Items.Inepted_w_att_scope_long_03_Military_2
+Items.Inepted_w_att_scope_long_03_Neon_1
+Items.Inepted_w_att_scope_long_03_Neon_2
+Items.Inepted_w_att_scope_long_03_Pimp_1
+Items.Inepted_w_att_scope_long_03_Pimp_2
+Items.Inepted_w_att_scope_long_04_Default
+Items.Inepted_w_att_scope_long_04_Military_1
+Items.Inepted_w_att_scope_long_04_Military_2
+Items.Inepted_w_att_scope_long_04_Neon_1
+Items.Inepted_w_att_scope_long_04_Neon_2
+Items.Inepted_w_att_scope_long_04_Pimp_1
+Items.Inepted_w_att_scope_long_04_Pimp_2
+Items.Inepted_w_att_scope_short_01_Default
+Items.Inepted_w_att_scope_short_01_Military_1
+Items.Inepted_w_att_scope_short_01_Military_2
+Items.Inepted_w_att_scope_short_01_Neon_1
+Items.Inepted_w_att_scope_short_01_Neon_2
+Items.Inepted_w_att_scope_short_01_Pimp_1
+Items.Inepted_w_att_scope_short_01_Pimp_2
+Items.Inepted_w_att_scope_short_02_Default
+Items.Inepted_w_att_scope_short_02_Military_1
+Items.Inepted_w_att_scope_short_02_Military_2
+Items.Inepted_w_att_scope_short_02_Neon_1
+Items.Inepted_w_att_scope_short_02_Neon_2
+Items.Inepted_w_att_scope_short_02_Pimp_1
+Items.Inepted_w_att_scope_short_02_Pimp_2
+Items.Inepted_w_att_scope_short_03_Default
+Items.Inepted_w_att_scope_short_03_Military_1
+Items.Inepted_w_att_scope_short_03_Military_2
+Items.Inepted_w_att_scope_short_03_Neon_1
+Items.Inepted_w_att_scope_short_03_Neon_2
+Items.Inepted_w_att_scope_short_03_Pimp_1
+Items.Inepted_w_att_scope_short_03_Pimp_2
+Items.Inepted_w_att_scope_short_04_Default
+Items.Inepted_w_att_scope_short_04_Military_1
+Items.Inepted_w_att_scope_short_04_Military_2
+Items.Inepted_w_att_scope_short_04_Neon_1
+Items.Inepted_w_att_scope_short_04_Neon_2
+Items.Inepted_w_att_scope_short_04_Pimp_1
+Items.Inepted_w_att_scope_short_04_Pimp_2
+Items.Inepted_w_att_scope_short_05_Default
+Items.Inepted_w_att_scope_short_05_Military_1
+Items.Inepted_w_att_scope_short_05_Military_2
+Items.Inepted_w_att_scope_short_05_Neon_1
+Items.Inepted_w_att_scope_short_05_Neon_2
+Items.Inepted_w_att_scope_short_05_Pimp_1
+Items.Inepted_w_att_scope_short_05_Pimp_2
+Items.Inepted_w_att_scope_sniper_01_Default
+Items.Inepted_w_att_scope_sniper_01_Military_1
+Items.Inepted_w_att_scope_sniper_01_Military_2
+Items.Inepted_w_att_scope_sniper_01_Neon_1
+Items.Inepted_w_att_scope_sniper_01_Neon_2
+Items.Inepted_w_att_scope_sniper_01_Pimp_1
+Items.Inepted_w_att_scope_sniper_01_Pimp_2
+Items.Inepted_w_att_scope_sniper_02_Default
+Items.Inepted_w_att_scope_sniper_02_Military_1
+Items.Inepted_w_att_scope_sniper_02_Military_2
+Items.Inepted_w_att_scope_sniper_02_Neon_1
+Items.Inepted_w_att_scope_sniper_02_Neon_2
+Items.Inepted_w_att_scope_sniper_02_Pimp_1
+Items.Inepted_w_att_scope_sniper_02_Pimp_2
+Items.Inepted_w_att_scope_long_05_Default
+Items.Inepted_w_att_scope_long_05_Military_1
+Items.Inepted_w_att_scope_long_05_Military_2
+Items.Inepted_w_att_scope_long_05_Neon_1
+Items.Inepted_w_att_scope_long_05_Neon_2
+Items.Inepted_w_att_scope_long_05_Pimp_1
+Items.Inepted_w_att_scope_long_05_Pimp_2
+Items.Inepted_w_att_scope_long_06_Default
+Items.Inepted_w_att_scope_long_06_Military_1
+Items.Inepted_w_att_scope_long_06_Military_2
+Items.Inepted_w_att_scope_long_06_Neon_1
+Items.Inepted_w_att_scope_long_06_Neon_2
+Items.Inepted_w_att_scope_long_06_Pimp_1
+Items.Inepted_w_att_scope_long_06_Pimp_2
+Items.Inepted_w_att_scope_short_06_Default
+Items.Inepted_w_att_scope_short_06_Military_1
+Items.Inepted_w_att_scope_short_06_Military_2
+Items.Inepted_w_att_scope_short_06_Neon_1
+Items.Inepted_w_att_scope_short_06_Neon_2
+Items.Inepted_w_att_scope_short_06_Pimp_1
+Items.Inepted_w_att_scope_short_06_Pimp_2
+Items.Inepted_w_att_scope_short_07_Default
+Items.Inepted_w_att_scope_short_07_Military_1
+Items.Inepted_w_att_scope_short_07_Military_2
+Items.Inepted_w_att_scope_short_07_Neon_1
+Items.Inepted_w_att_scope_short_07_Neon_2
+Items.Inepted_w_att_scope_short_07_Pimp_1
+Items.Inepted_w_att_scope_short_07_Pimp_2
+Items.Inepted_w_att_scope_sniper_03_Default
+Items.Inepted_w_att_scope_sniper_03_Military_1
+Items.Inepted_w_att_scope_sniper_03_Military_2
+Items.Inepted_w_att_scope_sniper_03_Neon_1
+Items.Inepted_w_att_scope_sniper_03_Neon_2
+Items.Inepted_w_att_scope_sniper_03_Pimp_1
+Items.Inepted_w_att_scope_sniper_03_Pimp_2  
+ 
+ 
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Pimp_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Default", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Military_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Military_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Neon_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Neon_2", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Pimp_1", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Pimp_2", 1);
+
+
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Pimp_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Default_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Military_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Military_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Neon_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Neon_2_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_1_Epic", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_2_Epic", 1);
+
+
+
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_01_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_02_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_03_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_04_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_01_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_02_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_03_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_04_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_05_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_01_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_02_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_05_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_long_06_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_06_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_short_07_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_Recipe_w_att_scope_sniper_03_Pimp_2_Legendary", 1);
+
+
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_01_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_02_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_03_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_04_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_01_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_02_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_03_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_04_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_05_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_01_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_02_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_05_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_long_06_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_06_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_short_07_Pimp_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Default_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Military_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Military_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Neon_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Neon_2_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Pimp_1_Legendary", 1);
+Game.AddToInventory("Items.Inepted_w_att_scope_sniper_03_Pimp_2_Legendary", 1);
+
+
+## If you wonder how I knew it, that's good, it means you're curious. I fancy thinking myself curious too.
+## And I have 2 cats. Both alive. Actually more like they have me, but they allow me to tell it both ways. 
+## Have you already guessed how do I know that you're there? Hah! I've just given you a hint dear guest. What a pun!
+## You got me! Yeah, I basically guessed :) Pure luck, nothing fancy. If you say "Hello hidden you!" every time you walk into an empty room you have good chance to surprise anyone hidden there.

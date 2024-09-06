@@ -21,7 +21,7 @@ Items.Inepted_BaseScopeRecipe:
     - !append Price.Inepted_OneOfSeven
   
 
-Items.Inepted_Recipe_w_att_scope_${scope}_Epic:
+Items.Inepted_Recipe_w_att_scope_$(scope)_Epic:
   $base: Items.Inepted_BaseScopeRecipe
   $instances: &AllScopes
     - { scope: long_01_Default        }
@@ -113,6 +113,7 @@ Items.Inepted_Recipe_w_att_scope_${scope}_Epic:
     - { scope: long_05_Neon_2         }
     - { scope: long_05_Pimp_1         }
     - { scope: long_05_Pimp_2         }
+    - { scope: long_05_Grey           }
     - { scope: long_06_Default        }
     - { scope: long_06_Military_1     }
     - { scope: long_06_Military_2     }
@@ -138,48 +139,194 @@ Items.Inepted_Recipe_w_att_scope_${scope}_Epic:
     - { scope: sniper_03_Pimp_1       }
     - { scope: sniper_03_Pimp_2       }
   craftingResult: 
-    item: Items.Inepted_w_att_scope_${scope}
+    item: Items.Inepted_w_att_scope_$(scope)
   quality: Quality.Epic
   
 # Good code, now again, but for Legendary versions, please:
 
-Items.Inepted_Recipe_w_att_scope_${scope}_Legendary:
+Items.Inepted_Recipe_w_att_scope_$(scope)_Legendary:
   $base: Items.Inepted_BaseScopeRecipe
   $instances: *AllScopes
   craftingResult: 
-    item: Items.Inepted_w_att_scope_${scope}_Legendary
+    item: Items.Inepted_w_att_scope_$(scope)_Legendary
   quality: Quality.Legendary
+ 
+# And go FULL CHRISTMAS
+ 
+Items.Inepted_Recipe_w_att_scope_$(scope)_Rare:
+  $base: Items.Inepted_BaseScopeRecipe
+  $instances:
+    - { scope: long_01_Default        }
+    - { scope: long_01_Military_1     }
+    - { scope: long_01_Military_2     }
+    - { scope: long_01_Neon_1         }
+    - { scope: long_01_Neon_2         }
+    - { scope: long_01_Pimp_1         }
+    - { scope: long_01_Pimp_2         }
+    - { scope: long_02_Default        }
+    - { scope: long_02_Military_1     }
+    - { scope: long_02_Military_2     }
+    - { scope: long_02_Neon_1         }
+    - { scope: long_02_Neon_2         }
+    - { scope: long_02_Pimp_1         }
+    - { scope: long_02_Pimp_2         }
+    - { scope: long_03_Default        }
+    - { scope: long_03_Military_1     }
+    - { scope: long_03_Military_2     }
+    - { scope: long_03_Neon_1         }
+    - { scope: long_03_Neon_2         }
+    - { scope: long_03_Pimp_1         }
+    - { scope: long_03_Pimp_2         }
+    - { scope: long_06_Default        }
+    - { scope: long_06_Military_1     }
+    - { scope: long_06_Military_2     }
+    - { scope: long_06_Neon_1         }
+    - { scope: long_06_Neon_2         }
+    - { scope: long_06_Pimp_1         }
+    - { scope: long_06_Pimp_2         }
+    - { scope: short_01_Default       }
+    - { scope: short_01_Military_1    }
+    - { scope: short_01_Military_2    }
+    - { scope: short_01_Neon_1        }
+    - { scope: short_01_Neon_2        }
+    - { scope: short_01_Pimp_1        }
+    - { scope: short_01_Pimp_2        }
+    - { scope: short_02_Default       }
+    - { scope: short_02_Military_1    }
+    - { scope: short_02_Military_2    }
+    - { scope: short_02_Neon_1        }
+    - { scope: short_02_Neon_2        }
+    - { scope: short_02_Pimp_1        }
+    - { scope: short_02_Pimp_2        }
+    - { scope: short_03_Default       }
+    - { scope: short_03_Military_1    }
+    - { scope: short_03_Military_2    }
+    - { scope: short_03_Neon_1        }
+    - { scope: short_03_Neon_2        }
+    - { scope: short_03_Pimp_1        }
+    - { scope: short_03_Pimp_2        }
+    - { scope: short_03_Frank         }
+    - { scope: short_04_Default       }
+    - { scope: short_04_Military_1    }
+    - { scope: short_04_Military_2    }
+    - { scope: short_04_Neon_1        }
+    - { scope: short_04_Neon_2        }
+    - { scope: short_04_Pimp_1        }
+    - { scope: short_04_Pimp_2        }
+    - { scope: short_06_Default       }
+    - { scope: short_06_Neon_1        }
+    - { scope: short_06_Neon_2        }
+    - { scope: sniper_01_Default      }
+    - { scope: sniper_01_Military_1   }
+    - { scope: sniper_01_Military_2   }
+    - { scope: sniper_01_Neon_1       }
+    - { scope: sniper_01_Neon_2       }
+    - { scope: sniper_01_Pimp_1       }
+    - { scope: sniper_01_Pimp_2       }
+    - { scope: sniper_01_Panam        }
+    - { scope: sniper_01_Buck         }
+    - { scope: sniper_01_Breakthrough }
+    - { scope: sniper_01_Reed         }
+    - { scope: sniper_02_Default      }
+    - { scope: sniper_02_Military_1   }
+    - { scope: sniper_02_Military_2   }
+    - { scope: sniper_02_Neon_1       }
+    - { scope: sniper_02_Neon_2       }
+    - { scope: sniper_02_Pimp_1       }
+    - { scope: sniper_02_Pimp_2       }
+  craftingResult: 
+    item: Items.Inepted_w_att_scope_$(scope)_Rare
+  quality: Quality.Rare
+  
+
+
+Items.Inepted_Recipe_w_att_scope_$(scope)_Uncommon:
+  $base: Items.Inepted_BaseScopeRecipe
+  $instances: &CheapScopes
+    - { scope: long_01_Default        }
+    - { scope: long_01_Military_1     }
+    - { scope: long_01_Military_2     }
+    - { scope: long_01_Neon_1         }
+    - { scope: long_01_Neon_2         }
+    - { scope: long_01_Pimp_1         }
+    - { scope: long_01_Pimp_2         }
+    - { scope: long_02_Default        }
+    - { scope: long_02_Military_1     }
+    - { scope: long_02_Military_2     }
+    - { scope: long_02_Neon_1         }
+    - { scope: long_02_Neon_2         }
+    - { scope: long_02_Pimp_1         }
+    - { scope: long_02_Pimp_2         }
+    - { scope: short_01_Default       }
+    - { scope: short_01_Military_1    }
+    - { scope: short_01_Military_2    }
+    - { scope: short_01_Neon_1        }
+    - { scope: short_01_Neon_2        }
+    - { scope: short_01_Pimp_1        }
+    - { scope: short_01_Pimp_2        }
+    - { scope: short_03_Default       }
+    - { scope: short_03_Military_1    }
+    - { scope: short_03_Military_2    }
+    - { scope: short_03_Neon_1        }
+    - { scope: short_03_Neon_2        }
+    - { scope: short_03_Pimp_1        }
+    - { scope: short_03_Pimp_2        }
+    - { scope: short_03_Frank         }
+    - { scope: short_06_Default       }
+    - { scope: short_06_Neon_1        }
+    - { scope: short_06_Neon_2        }
+    - { scope: sniper_01_Default      }
+    - { scope: sniper_01_Military_1   }
+    - { scope: sniper_01_Military_2   }
+    - { scope: sniper_01_Neon_1       }
+    - { scope: sniper_01_Neon_2       }
+    - { scope: sniper_01_Pimp_1       }
+    - { scope: sniper_01_Pimp_2       }
+    - { scope: sniper_01_Panam        }
+    - { scope: sniper_01_Buck         }
+    - { scope: sniper_01_Breakthrough }
+    - { scope: sniper_01_Reed         }
+    - { scope: sniper_02_Default      }
+    - { scope: sniper_02_Military_1   }
+    - { scope: sniper_02_Military_2   }
+    - { scope: sniper_02_Neon_1       }
+    - { scope: sniper_02_Neon_2       }
+    - { scope: sniper_02_Pimp_1       }
+    - { scope: sniper_02_Pimp_2       }
+  craftingResult: 
+    item: Items.Inepted_w_att_scope_$(scope)_Uncommon
+  quality: Quality.Uncommon
+  
+
+
+Items.Inepted_Recipe_w_att_scope_$(scope)_Common:
+  $base: Items.Inepted_BaseScopeRecipe
+  $instances: *CheapScopes
+  craftingResult: 
+    item: Items.Inepted_w_att_scope_$(scope)_Common
+  quality: Quality.Common
+
 
 # Call to existence these RecipeElements, we'll need them soon, please:
 
-Items.Inepted_Craftable_Scope_Epic_RecipeElement:
-    $type: gamedataRecipeElement_Record
-    amount: 10
-    ingredient: Items.EpicMaterial1
-
-Items.Inepted_Craftable_Scope_Legendary_RecipeElement:
-    $type: gamedataRecipeElement_Record
-    amount: 10
-    ingredient: Items.LegendaryMaterial1
+# Ok, don't do it.
 
 # Oh, you great YAML! Now let's create a CraftingPackage record based on Craftable_Attachment, please
 
-Items.Inepted_Craftable_Scope_Epic:
-  $base: Items.Craftable_Attachment
-  craftingRecipe:
-    - Items.Inepted_Craftable_Scope_Epic_RecipeElement
+# Ok, never mind.
+
 
 # You rock! Now go legendary, you Legend!
 
-Items.Inepted_Craftable_Scope_Legendary:
-  $base: Items.Craftable_Attachment
-  craftingRecipe:
-    - Items.Inepted_Craftable_Scope_Legendary_RecipeElement
+# Actually you didn't, but it's ok
+
 
 # Thank you!
 ### --- No need to be nice anymore --- ###
 
+# And I definitely don't intend to be nice to common scopes
 
+# Evene if they were here
 
 
 ######    Released  into  the  cyberspace      ######     

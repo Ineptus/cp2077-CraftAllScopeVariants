@@ -1,0 +1,38 @@
+#==============   IneptedCyberMods    ==============#
+#===========   All Scope Variants VAS    ===========#
+
+
+#=================   change.log    =================#
+
+0.5.0 – VAS 1.0
+
+  Released as a submod of CraftAllScopeVariants
+
+0.5.1 Moved localization from /base/ to /CraftAllScopeVariants/ to avoid conflicts.
+
+0.5.2 Added a grey version of Jue as requested by cielle. It's almost Christmas, couldn't help myself.
+  
+0.6.0
+
+  1) Hotfix for 2.1 – had to (probably temporary) bring back .app substitutors and revert to using visualTags, because of a change in ArchiveXL, which was causing glitches like nontranslucent E255 Percipient, darker Handyman or missing ammo counter in ClearVue.
+
+  2) Added rare variants for ClearVue Mk.8, Kairo SA-1, Hyakume, and CQO Kanone MINI Mk.72 – I somehow forgot about them and made rare variants only for scopes which had common and uncommon variants as well.
+  
+  3) Sometime during last updates I added my long scopes to be used in handguns and long+short to be used in sniper rifles. I'm leaving it this way, you can always change this yourself in /r6/tweaks/PossibleScopesListsPopulator.yaml
+
+
+
+#=================  VAS changelog  =================#
+
+VAS.3.0 
+
+  1) Fix for disappeared Virtual Atelier shops icons in Cyberpunk 2.1 – changed to new icon paths
+  2) Added rare variants for ClearVue Mk.8, Kairo SA-1, Hyakume, and CQO Kanone MINI Mk.72
+
+
+
+######    Released  into  the  cyberspace      ######     
+######    with dual compliment-the-cat clause  ######
+######    as  described  in  license.cat       ######
+######                                         ######
+######### (ɔɔ) 2077-2137 All cats're served #########

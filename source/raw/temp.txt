@@ -1,0 +1,173 @@
+
+Btw when do you plan to publish this, let's say it, groundbreaking update on Nexus?
+And I'd like you to know, that I owe you – I'd say big time, but let's start with like… 30 minutes?
+
+
+"looseDependencies":(.*\r\n){4}.*(default|military|neon|pimp)([12])?(.*\r\n)+?.+visualTags.+\r\n.+redTagList.+\r\n.+"tags":\s(*PRUNE)\K\[\]
+
+
+
+
+\1[Military_1]
+
+[\r\n                {\r\n                  "\$type"\: "CName",\r\n                  "\$storage"\: "string",\r\n                  "\$value"\: "\u\2(?{3}_\3":")\r\n                }\r\n              ]
+
+"looseDependencies":(.*\r\n){4}.*(default|military|neon|pimp)([12])?(.*\r\n)+?.+visualTags.+\r\n.+redTagList.+\r\n.+"tags":\s(*PRUNE)\K\[\r\n.+\r\n.+\r\n.+\r\n.+\r\n.+\r\n.+\]
+
+[\r\n                {\r\n                  "\$type"\: "CName",\r\n                  "\$storage"\: "string",\r\n                  "\$value"\: "\2(?{3}\3":")\r\n                }\r\n              ]
+
+
+
+
+
+            "visualTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "Default"
+                }
+              ]
+            }
+
+
+# Create new scope items with different variants and icons
+# Or maybe later
+# Create new Recipe Element Record
+Items.Inepted_ScopeRecipes_Cost:
+    $type: gamedataRecipeElement_Record
+    amount: 10
+    ingredient: Items.RareMaterial1
+
+# Isn't it a little disturbing that we enjoy forcing ourselves to pay for things we could've had for free..?
+
+# Create Crafting Result Record
+Items.Inepted_Recipe_Result_w_att_scope_long_03:
+    $type: gamedataCraftingResult_Record
+    amount: 1
+    item: Items.Inepted_w_att_scope_long_03_Neon_1
+    
+# Create Item Recipe and stop writing "Record" after every record description record
+Items.Inepted_Recipe_w_att_scope_long_03:
+    $base: Items.BaseRangedWeaponRecipe
+    craftingResult: Items.Inepted_Recipe_Result_w_att_scope_long_03
+    displayName: LocKey(3799)
+    quality: Quality.Legendary
+
+Items.Inepted_w_att_scope_long_03:
+  $base: Items.w_att_scope_long_03
+  quality: Quality.Legendary
+
+
+Items.Inepted_w_att_scope_long_03_Default:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_default
+  visualTags:
+    - Default
+    
+Items.Inepted_w_att_scope_long_03_Military_1:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_military1
+  visualTags:
+    - Military_1
+    
+Items.Inepted_w_att_scope_long_03_Military_2:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_military2
+  visualTags:
+    - Military_2
+    
+Items.Inepted_w_att_scope_long_03_Neon_1:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_neon1
+  visualTags:
+    - Neon_1
+    
+Items.Inepted_w_att_scope_long_03_Neon_2:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_neon2
+  visualTags:
+    - Neon_2
+    
+Items.Inepted_w_att_scope_long_03_Pimp_1:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_pimp1
+  visualTags:
+    - Pimp_1
+    
+Items.Inepted_w_att_scope_long_03_Pimp_2:
+  $base: Inepted_w_att_scope_long_03
+  iconPath: clearvue_pimp2
+  visualTags:
+    - Pimp_2
+	
+Items.Inepted_w_att_scope_long_02_${var1}:
+  $base: Items.Inepted_w_att_scope_long_02
+  $instances: *VariantsInstances
+  iconPath: percipient_${var2}
+  visualTags:
+    - ${var1}
+
+Items.Inepted_w_att_scope_long_03_${var1}:
+  $base: Items.Inepted_w_att_scope_long_03
+  $instances: *VariantsInstances
+  iconPath: clearvue_${var2}
+  visualTags:
+    - ${var1}
+    
+Items.Inepted_w_att_scope_long_04_${var1}:
+  $base: Items.Inepted_w_att_scope_long_04
+  $instances: *VariantsInstances
+  iconPath: saika_${var2}
+  visualTags:
+    - ${var1}
+
+Items.Inepted_w_att_scope_long_05_${var1}:
+  $base: Items.Inepted_w_att_scope_long_05
+  $instances: *VariantsInstances
+  iconPath: w_att__scope_long_05_${var2}
+  visualTags:
+    - ${var1}
+
+Items.Inepted_w_att_scope_short_01_${var1}:
+  $base: Items.Inepted_w_att_scope_short_01
+  $instances: *VariantsInstances
+  iconPath: kairo_${var2}
+  visualTags:
+    - ${var1}
+	
+Items.RiflePossibleScopesList:
+  itemPartList:
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Default
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Military_1
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Military_2
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Neon_1
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Neon_2
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Pimp_1
+    - !append 
+      $base: Items.RiflePossibleScopesList_inline0
+      item: Items.Inepted_w_att_scope_long_03_Pimp_2
+	  
+	  
+ @andychiu5438  "44:33 No, nothing like that, really."
+ – not with Jackie, not with the same mech, but something like that happened ;)
+https://youtu.be/8vfSX9vvxDo?si=YrPYot-HTwrjRpB9&t=16
+Btw I believe that such scripted events must have been too difficult to implement with unrestricted player in proximity. And this game almost never forces your position or movement. So, more freedom at the cost of fewer scripted events and cutscenes? Actually IMO it could be more a REDengine limitation – at least with cutscenes – consider the time required to load your reflection in a mirror…
+So let's see what happens if someone doesn't play as creators hoped one would :p
+https://youtu.be/0Pylkkal9vw?si=dZDjI6uzkPQna85n&t=24
+
+Anyway, considering how much they improved so far, the switch to UE5, and the rapid advancements in AI implementations in software development – the future looks brightly :) 
+(If this AI won't crush us in the meantime)

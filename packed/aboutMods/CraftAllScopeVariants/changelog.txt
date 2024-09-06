@@ -5,8 +5,8 @@
 #=================   change.log    =================#
 
 
-0.2.1: First release
-0.3.7:
+0.2.1 First release
+0.3.7
 
   1) Fix to legendary versions – scopes which already had their legendary version, now are correctly based on it – applies to SO-21 Saika, Jue, Handyman, Kanetsugu, HPO Kanone MAX Mk.77, and Gaki. It fixes e.g. Scopes that Scope settings for legendary versions
 
@@ -17,8 +17,47 @@
    – HPO Kanone MAX Mk.77: Panam, Buck, Breakthrough and Reed
 
 
+0.4.0
+
+  1) Added a Virtual Atelier store (VAS) – released in a separate archive.
+  
+  
+0.4.1
+
+  1) Removed completely the wrong Handyman variants, so the recipes are removed as well. (unfortunately it seems that recipes are actually bound to their 'results' and recipe items exist only as single use "adders" of 'real' recipes – if I understand correctly. That's also why not all recipes have their 'recipe' items – like common mods.)
+  
+  2) Corrected the quantities in the VAS.
+  
+
+0.5.0
+
+  1) Removed all .app substitutors, so the variant selection relies now solely on the appearanceName, which was made possible by the new ArchiveXL version (implemented in 1.8.2, but released on the Nexus for the first time with 1.9.0)
+  
+  2) Added rare, uncommon and common versions of the relevant scopes, along with their recipes :)
+  
+  3) Released along with a new alternative version called "All Scope Variants – Virtual Atelier store". Divided the VAS store into one with all the scopes (included in the said mod) and one with the recipes (together attached as an optional file to the main mod).
 
 
+0.5.1 Moved localization from /base/ to /CraftAllScopeVariants/ to avoid conflicts.
+
+0.5.2 Added a grey version of Jue as requested by cielle. It's almost Christmas, couldn't help myself.
+  
+0.6.0
+
+  1) Hotfix for 2.1 – had to (probably temporary) bring back .app substitutors and revert to using visualTags, because of a change in ArchiveXL, which was causing glitches like nontranslucent E255 Percipient, darker Handyman or missing ammo counter in ClearVue.
+
+  2) Added rare variants for ClearVue Mk.8, Kairo SA-1, Hyakume, and CQO Kanone MINI Mk.72 – I somehow forgot about them and made rare variants only for scopes which had common and uncommon variants as well.
+  
+  3) Sometime during last updates I added my long scopes to be used in handguns and long+short to be used in sniper rifles. I'm leaving it this way, you can always change this yourself in /r6/tweaks/PossibleScopesListsPopulator.yaml
+
+
+
+#=================  VAS changelog  =================#
+
+VAS.3.0 
+
+  1) Fix for disappeared Virtual Atelier shops icons in Cyberpunk 2.1 – changed to new icon paths
+  2) Added rare variants for ClearVue Mk.8, Kairo SA-1, Hyakume, and CQO Kanone MINI Mk.72
 
 
 ######    Released  into  the  cyberspace      ######     

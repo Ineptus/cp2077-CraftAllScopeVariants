@@ -15,10 +15,9 @@
 ## I might not see you, but I know you're there
 
 # Create new 'base' records for each scope model which will be shared by all visual variants
-# CraftingData is gently defined in ScopeRecipeGenerator
 
-Items.Inepted_w_att_scope_${scope}:
-  $base: Items.w_att_scope_${scope}
+Items.Inepted_w_att_scope_$(scope):
+  $base: Items.w_att_scope_$(scope)
   $instances:
     - { scope: long_01   }
     - { scope: long_02   }
@@ -42,8 +41,8 @@ Items.Inepted_w_att_scope_${scope}:
 # And now the legendary bases. Why separate ones? Because some of the scopes have existing separate legendary versions. To allow their different stats and compatibility with mods which tweak their stats.
 
 
-Items.Inepted_w_att_scope_${scope}_Legendary:
-  $base: Items.w_att_scope_${scope}_legendary
+Items.Inepted_w_att_scope_$(scope)_Legendary:
+  $base: Items.w_att_scope_$(scope)_legendary
   $instances:
     - { scope: long_04   }
     - { scope: long_05   }
@@ -69,17 +68,17 @@ Items.Inepted_w_att_scope_${scope}_Legendary:
 
 # Some scopes have icon variants:
 
-Items.Inepted_w_att_scope_${scope}_${var1}:
-  $base: Items.Inepted_w_att_scope_${scope}
+Items.Inepted_w_att_scope_$(scope)_$(var1):
+  $base: Items.Inepted_w_att_scope_$(scope)
   $instances:
-    - { scope: long_01,    icon: grandstand_default,    var1: Default,      var2: default     }
-    - { scope: long_01,    icon: grandstand_military1,  var1: Military_1,   var2: military1   }
-    - { scope: long_01,    icon: grandstand_military2,  var1: Military_2,   var2: military2   }
-    - { scope: long_01,    icon: grandstand_neon1,      var1: Neon_1,       var2: neon1       }
-    - { scope: long_01,    icon: grandstand_neon2,      var1: Neon_2,       var2: neon2       }
-    - { scope: long_01,    icon: grandstand_pimp1,      var1: Pimp_1,       var2: pimp1       }
-    - { scope: long_01,    icon: grandstand_pimp2,      var1: Pimp_2,       var2: pimp2       }
-    - { scope: long_02,    icon: percipient_deafult,    var1: Default,      var2: default     } #Sic! Deafult!
+    - { scope: long_01,    icon: grandstand_default,      var1: Default,      var2: default      }
+    - { scope: long_01,    icon: grandstand_military1,    var1: Military_1,   var2: military1    }
+    - { scope: long_01,    icon: grandstand_military2,    var1: Military_2,   var2: military2    }
+    - { scope: long_01,    icon: grandstand_neon1,        var1: Neon_1,       var2: neon1        }
+    - { scope: long_01,    icon: grandstand_neon2,        var1: Neon_2,       var2: neon2        }
+    - { scope: long_01,    icon: grandstand_pimp1,        var1: Pimp_1,       var2: pimp1        }
+    - { scope: long_01,    icon: grandstand_pimp2,        var1: Pimp_2,       var2: pimp2        }
+    - { scope: long_02,    icon: percipient_deafult,      var1: Default,      var2: default      }
     - { scope: long_02,    icon: percipient_military1,    var1: Military_1,   var2: military1    }
     - { scope: long_02,    icon: percipient_military2,    var1: Military_2,   var2: military2    }
     - { scope: long_02,    icon: percipient_neon1,        var1: Neon_1,       var2: neon1        }
@@ -146,7 +145,7 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     - { scope: sniper_01,  icon: kanone_max_panam,        var1: Panam,        var2: panam        }
     - { scope: sniper_01,  icon: kanone_max_buck,         var1: Buck,         var2: buck         }
     - { scope: sniper_01,  icon: kanone_max_breakthrough, var1: Breakthrough, var2: breakthrough }
-    - { scope: sniper_01,  icon: kanone_max_default,      var1: Reed,         var2: reed         }
+    - { scope: sniper_01,  icon: kanone_max_pimp1,        var1: Reed,         var2: reed         }
     - { scope: sniper_02,  icon: prospecta_default,       var1: Default,      var2: default      }
     - { scope: sniper_02,  icon: prospecta_military1,     var1: Military_1,   var2: military1    }
     - { scope: sniper_02,  icon: prospecta_military2,     var1: Military_2,   var2: military2    }
@@ -154,18 +153,16 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     - { scope: sniper_02,  icon: prospecta_neon2,         var1: Neon_2,       var2: neon2        }
     - { scope: sniper_02,  icon: prospecta_pimp1,         var1: Pimp_1,       var2: pimp1        }
     - { scope: sniper_02,  icon: prospecta_pimp2,         var1: Pimp_2,       var2: pimp2        }
-  iconPath: ${icon}
-  appearanceName: ${var2}
-  displayName: LocKey#Mod-ICM-CASV-${scope}_${var1}
-  visualTags:
-    - ${var1}
+  iconPath: $(icon)
+  displayName: LocKey#Mod-ICM-CASV-$(scope)_$(var1)
+  visualTags: [ $(var2) ]
     
 
   
 # …and some do not
 
-Items.Inepted_w_att_scope_${scope}_${var1}:
-  $base: Items.Inepted_w_att_scope_${scope}
+Items.Inepted_w_att_scope_$(scope)_$(var1):
+  $base: Items.Inepted_w_att_scope_$(scope)
   $instances: 
     - { scope: long_05,    var1: Default,     var2: default     }
     - { scope: long_05,    var1: Military_1,  var2: military1   }
@@ -174,6 +171,7 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     - { scope: long_05,    var1: Neon_2,      var2: neon2       }
     - { scope: long_05,    var1: Pimp_1,      var2: pimp1       }
     - { scope: long_05,    var1: Pimp_2,      var2: pimp2       }
+    - { scope: long_05,    var1: Grey,        var2: grey        }
     
     - { scope: long_06,    var1: Default,     var2: default     }
     - { scope: long_06,    var1: Military_1,  var2: military1   }
@@ -185,11 +183,7 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     
     - { scope: short_06,   var1: Default,     var2: default     }
     - { scope: short_06,   var1: Neon_1,      var2: neon1       }
-    - { scope: short_06,   var1: Neon_2,      var2: neon2       } #the following Handymans don't exist, saved them only for compatibility and they'll be removed in the future
-    - { scope: short_06,   var1: Military_1,  var2: military1   }
-    - { scope: short_06,   var1: Military_2,  var2: military2   }
-    - { scope: short_06,   var1: Pimp_1,      var2: pimp1       }
-    - { scope: short_06,   var1: Pimp_2,      var2: pimp2       }
+    - { scope: short_06,   var1: Neon_2,      var2: neon2       }
 
     - { scope: short_07,   var1: Default,     var2: default     }
     - { scope: short_07,   var1: Military_1,  var2: military1   }
@@ -206,15 +200,16 @@ Items.Inepted_w_att_scope_${scope}_${var1}:
     - { scope: sniper_03,  var1: Neon_2,      var2: neon2       }
     - { scope: sniper_03,  var1: Pimp_1,      var2: pimp1       }
     - { scope: sniper_03,  var1: Pimp_2,      var2: pimp2       }
-  appearanceName: ${var2}
-  displayName: LocKey#Mod-ICM-CASV-${scope}_${var1}
-  visualTags:
-    - ${var1}
+  displayName: LocKey#Mod-ICM-CASV-$(scope)_$(var1)
+  visualTags: [ $(var2) ]
+
+   
+
 
 # And now let's make generic legendary versions
 
-Items.Inepted_w_att_scope_${scope}_Legendary:
-  $base: Items.Inepted_w_att_scope_${scope}
+Items.Inepted_w_att_scope_$(scope)_Legendary:
+  $base: Items.Inepted_w_att_scope_$(scope)
   $instances:
     - { scope: long_01_Default      }
     - { scope: long_01_Military_1   }
@@ -293,8 +288,8 @@ Items.Inepted_w_att_scope_${scope}_Legendary:
   
   # And legendary versions for really legendary scopes
   
-Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
-  $base: Items.Inepted_w_att_scope_${scope}_Legendary
+Items.Inepted_w_att_scope_$(scope)_$(var1)_Legendary:
+  $base: Items.Inepted_w_att_scope_$(scope)_Legendary
   $instances:
     - { scope: long_04,    icon: saika_default,           var1: Default,      var2: default       }
     - { scope: long_04,    icon: saika_military1,         var1: Military_1,   var2: military1     }
@@ -313,16 +308,14 @@ Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
     - { scope: sniper_01,  icon: kanone_max_panam,        var1: Panam,        var2: panam         }
     - { scope: sniper_01,  icon: kanone_max_buck,         var1: Buck,         var2: buck          }
     - { scope: sniper_01,  icon: kanone_max_breakthrough, var1: Breakthrough, var2: breakthrough  }
-    - { scope: sniper_01,  icon: kanone_max_neon2,        var1: Reed,         var2: reed          }
-  iconPath: ${icon}
-  appearanceName: ${var2}
-  displayName: LocKey#Mod-ICM-CASV-${scope}_${var1}
-  visualTags:
-    - ${var1}
+    - { scope: sniper_01,  icon: kanone_max_pimp1,        var1: Reed,         var2: reed          }
+  iconPath: $(icon)
+  displayName: LocKey#Mod-ICM-CASV-$(scope)_$(var1)
+  visualTags: [ $(var2) ]
     
     
-Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
-  $base: Items.Inepted_w_att_scope_${scope}_Legendary
+Items.Inepted_w_att_scope_$(scope)_$(var1)_Legendary:
+  $base: Items.Inepted_w_att_scope_$(scope)_Legendary
   $instances:   
     - { scope: long_05,    var1: Default,     var2: default     }
     - { scope: long_05,    var1: Military_1,  var2: military1   }
@@ -331,14 +324,11 @@ Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
     - { scope: long_05,    var1: Neon_2,      var2: neon2       }
     - { scope: long_05,    var1: Pimp_1,      var2: pimp1       }
     - { scope: long_05,    var1: Pimp_2,      var2: pimp2       }
+    - { scope: long_05,    var1: Grey,        var2: grey        }
     
     - { scope: short_06,   var1: Default,     var2: default     }
     - { scope: short_06,   var1: Neon_1,      var2: neon1       }
-    - { scope: short_06,   var1: Neon_2,      var2: neon2       } #the following Handymans don't exist, saved them only for compatibility and they'll be removed in the future
-    - { scope: short_06,   var1: Military_1,  var2: military1   } 
-    - { scope: short_06,   var1: Military_2,  var2: military2   }
-    - { scope: short_06,   var1: Pimp_1,      var2: pimp1       }
-    - { scope: short_06,   var1: Pimp_2,      var2: pimp2       }
+    - { scope: short_06,   var1: Neon_2,      var2: neon2       }
 
     - { scope: short_07,   var1: Default,     var2: default     }
     - { scope: short_07,   var1: Military_1,  var2: military1   }
@@ -355,11 +345,206 @@ Items.Inepted_w_att_scope_${scope}_${var1}_Legendary:
     - { scope: sniper_03,  var1: Neon_2,      var2: neon2       }
     - { scope: sniper_03,  var1: Pimp_1,      var2: pimp1       }
     - { scope: sniper_03,  var1: Pimp_2,      var2: pimp2       }
-  appearanceName: ${var2}
-  displayName: LocKey#Mod-ICM-CASV-${scope}_${var1}
-  visualTags:
-    - ${var1}
+  displayName: LocKey#Mod-ICM-CASV-$(scope)_$(var1)
+  visualTags: [ $(var2) ]
     
+
+
+
+
+# Ho! Ho! Christmas is approaching! If you can't hide, you'll probably have to prepare some gifts. I can't hide. So I'm making lower quality versions of my scopes. So the poorer children of Night City can have some too.
+
+
+Items.Inepted_w_att_scope_$(scope)_Rare:
+  $base: Items.Inepted_w_att_scope_$(scope)
+  $instances:
+    - { scope: long_01_Default        }
+    - { scope: long_01_Military_1     }
+    - { scope: long_01_Military_2     }
+    - { scope: long_01_Neon_1         }
+    - { scope: long_01_Neon_2         }
+    - { scope: long_01_Pimp_1         }
+    - { scope: long_01_Pimp_2         }
+    - { scope: long_02_Default        }
+    - { scope: long_02_Military_1     }
+    - { scope: long_02_Military_2     }
+    - { scope: long_02_Neon_1         }
+    - { scope: long_02_Neon_2         }
+    - { scope: long_02_Pimp_1         }
+    - { scope: long_02_Pimp_2         }
+    - { scope: long_03_Default        }
+    - { scope: long_03_Military_1     }
+    - { scope: long_03_Military_2     }
+    - { scope: long_03_Neon_1         }
+    - { scope: long_03_Neon_2         }
+    - { scope: long_03_Pimp_1         }
+    - { scope: long_03_Pimp_2         }
+    - { scope: long_06_Default        }
+    - { scope: long_06_Military_1     }
+    - { scope: long_06_Military_2     }
+    - { scope: long_06_Neon_1         }
+    - { scope: long_06_Neon_2         }
+    - { scope: long_06_Pimp_1         }
+    - { scope: long_06_Pimp_2         }
+    - { scope: short_01_Default       }
+    - { scope: short_01_Military_1    }
+    - { scope: short_01_Military_2    }
+    - { scope: short_01_Neon_1        }
+    - { scope: short_01_Neon_2        }
+    - { scope: short_01_Pimp_1        }
+    - { scope: short_01_Pimp_2        }
+    - { scope: short_02_Default       }
+    - { scope: short_02_Military_1    }
+    - { scope: short_02_Military_2    }
+    - { scope: short_02_Neon_1        }
+    - { scope: short_02_Neon_2        }
+    - { scope: short_02_Pimp_1        }
+    - { scope: short_02_Pimp_2        }
+    - { scope: short_03_Default       }
+    - { scope: short_03_Military_1    }
+    - { scope: short_03_Military_2    }
+    - { scope: short_03_Neon_1        }
+    - { scope: short_03_Neon_2        }
+    - { scope: short_03_Pimp_1        }
+    - { scope: short_03_Pimp_2        }
+    - { scope: short_03_Frank         }
+    - { scope: short_04_Default       }
+    - { scope: short_04_Military_1    }
+    - { scope: short_04_Military_2    }
+    - { scope: short_04_Neon_1        }
+    - { scope: short_04_Neon_2        }
+    - { scope: short_04_Pimp_1        }
+    - { scope: short_04_Pimp_2        }
+    - { scope: short_06_Default       }
+    - { scope: short_06_Neon_1        }
+    - { scope: short_06_Neon_2        }
+    - { scope: sniper_01_Default      }
+    - { scope: sniper_01_Military_1   }
+    - { scope: sniper_01_Military_2   }
+    - { scope: sniper_01_Neon_1       }
+    - { scope: sniper_01_Neon_2       }
+    - { scope: sniper_01_Pimp_1       }
+    - { scope: sniper_01_Pimp_2       }
+    - { scope: sniper_01_Panam        }
+    - { scope: sniper_01_Buck         }
+    - { scope: sniper_01_Breakthrough }
+    - { scope: sniper_01_Reed         }
+    - { scope: sniper_02_Default      }
+    - { scope: sniper_02_Military_1   }
+    - { scope: sniper_02_Military_2   }
+    - { scope: sniper_02_Neon_1       }
+    - { scope: sniper_02_Neon_2       }
+    - { scope: sniper_02_Pimp_1       }
+    - { scope: sniper_02_Pimp_2       }
+  CraftingData: Items.Inepted_Craftable_Scope_Rare
+  quality: Quality.Rare
+  
+  
+Items.Inepted_w_att_scope_$(scope)_Uncommon:
+  $base: Items.Inepted_w_att_scope_$(scope)
+  $instances: &CheapScopes
+    - { scope: long_01_Default        }
+    - { scope: long_01_Military_1     }
+    - { scope: long_01_Military_2     }
+    - { scope: long_01_Neon_1         }
+    - { scope: long_01_Neon_2         }
+    - { scope: long_01_Pimp_1         }
+    - { scope: long_01_Pimp_2         }
+    - { scope: long_02_Default        }
+    - { scope: long_02_Military_1     }
+    - { scope: long_02_Military_2     }
+    - { scope: long_02_Neon_1         }
+    - { scope: long_02_Neon_2         }
+    - { scope: long_02_Pimp_1         }
+    - { scope: long_02_Pimp_2         }
+    - { scope: short_01_Default       }
+    - { scope: short_01_Military_1    }
+    - { scope: short_01_Military_2    }
+    - { scope: short_01_Neon_1        }
+    - { scope: short_01_Neon_2        }
+    - { scope: short_01_Pimp_1        }
+    - { scope: short_01_Pimp_2        }
+    - { scope: short_03_Default       }
+    - { scope: short_03_Military_1    }
+    - { scope: short_03_Military_2    }
+    - { scope: short_03_Neon_1        }
+    - { scope: short_03_Neon_2        }
+    - { scope: short_03_Pimp_1        }
+    - { scope: short_03_Pimp_2        }
+    - { scope: short_03_Frank         }
+    - { scope: short_06_Default       }
+    - { scope: short_06_Neon_1        }
+    - { scope: short_06_Neon_2        }
+    - { scope: sniper_01_Default      }
+    - { scope: sniper_01_Military_1   }
+    - { scope: sniper_01_Military_2   }
+    - { scope: sniper_01_Neon_1       }
+    - { scope: sniper_01_Neon_2       }
+    - { scope: sniper_01_Pimp_1       }
+    - { scope: sniper_01_Pimp_2       }
+    - { scope: sniper_01_Panam        }
+    - { scope: sniper_01_Buck         }
+    - { scope: sniper_01_Breakthrough }
+    - { scope: sniper_01_Reed         }
+    - { scope: sniper_02_Default      }
+    - { scope: sniper_02_Military_1   }
+    - { scope: sniper_02_Military_2   }
+    - { scope: sniper_02_Neon_1       }
+    - { scope: sniper_02_Neon_2       }
+    - { scope: sniper_02_Pimp_1       }
+    - { scope: sniper_02_Pimp_2       }
+  CraftingData: Items.Inepted_Craftable_Scope_Uncommon
+  quality: Quality.Uncommon
+  
+  
+Items.Inepted_w_att_scope_$(scope)_Common:
+  $base: Items.Inepted_w_att_scope_$(scope)
+  $instances: *CheapScopes
+  CraftingData: Items.Inepted_Craftable_Scope_Common
+  quality: Quality.Common
+
+
+# Now let's get here Crafting Data records from the other file – better to keep it here
+
+Items.Inepted_Craftable_Scope_Common:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - $type: gamedataRecipeElement_Record
+      amount: 10
+      ingredient: Items.CommonMaterial1
+
+
+Items.Inepted_Craftable_Scope_Uncommon:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - $type: gamedataRecipeElement_Record
+      amount: 10
+      ingredient: Items.UncommonMaterial1
+
+
+Items.Inepted_Craftable_Scope_Rare:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - $type: gamedataRecipeElement_Record
+      amount: 10
+      ingredient: Items.RareMaterial1
+
+
+Items.Inepted_Craftable_Scope_Epic:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - $type: gamedataRecipeElement_Record
+      amount: 10
+      ingredient: Items.EpicMaterial1
+
+
+Items.Inepted_Craftable_Scope_Legendary:
+  $base: Items.Craftable_Attachment
+  craftingRecipe:
+    - $type: gamedataRecipeElement_Record
+      amount: 10
+      ingredient: Items.LegendaryMaterial1
+
 
 
 

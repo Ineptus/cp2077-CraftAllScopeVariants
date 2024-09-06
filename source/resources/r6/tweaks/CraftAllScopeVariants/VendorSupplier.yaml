@@ -29,6 +29,21 @@ Vendors.hey_spr_gunsmith_01:
   itemStock:
     - !append-from Vendors.IneptedLegendaryShortScopeRecipesStockListHolder.itemStock
 
+# Westbrook, Japantown
+Vendors.wbr_jpn_gunsmith_01:
+  itemStock:
+    - !append-from Vendors.IneptedRareAllScopeRecipesStockListHolder.itemStock
+
+# Pacifica, West Wind Estate
+Vendors.pac_wwd_gunsmith_01:
+  itemStock:
+    - !append-from Vendors.IneptedUncommonAllScopeRecipesStockListHolder.itemStock
+  
+# Santo Domingo, Rancho Coronado
+Vendors.std_rcr_gunsmith_01:
+  itemStock:
+    - !append-from Vendors.IneptedCommonAllScopeRecipesStockListHolder.itemStock
+
 ######    Released  into  the  cyberspace      ######     
 ######    with dual compliment-the-cat clause  ######
 ######    as  described  in  license.cat       ######

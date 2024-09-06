@@ -1,0 +1,23 @@
+== Mod for Cyberpunk 2077 ==
+
+Name: All Scope Variants – Virtual Atelier Store [alternative version of CraftAllScopeVariants]
+Author: Ineptus
+Version: 0.6.0 – VAS 3.0
+Compatible with Cyberpunk 2077 2.0-2.1
+
+Requirements:
+  - ArchiveXL 1.10.1+
+  - TweakXL 1.6.0+
+  – Virtual Atelier 1.2.1+
+   …and their dependencies
+   
+Contents: (remove these files to unistall the mod)
+  - /aboutMods/AllScopeVariantsVAS/*
+  - /archive/pc/mod/CraftAllScopeVariants.archive
+  - /archive/pc/mod/CraftAllScopeVariants.archive.xl
+  - /r6/scripts/CraftAllScopeVariants/*
+  - /r6/tweaks/CraftAllScopeVariants/*
+
+  
+  
+ == Manually created manifest file as an example of what one could look like ==

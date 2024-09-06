@@ -3,9 +3,9 @@
     "WolvenKitVersion": "8.11.1",
     "WKitJsonVersion": "0.0.8",
     "GameVersion": 2020,
-    "ExportedDateTime": "2023-11-14T06:41:23.2385202Z",
+    "ExportedDateTime": "2023-12-13T21:19:31.4489407Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "C:\\Users\\Kuba\\Documents\\WKP\\ScopeGen\\source\\archive\\base\\weapons\\firearms\\attachments\\scope\\w_att__scope_short_03\\w_att__scope_short_03.app"
+    "ArchiveFileName": "C:\\Users\\Kuba\\CP2077 Moding\\PROJECTS\\CraftAllScopeVariants\\source\\archive\\base\\weapons\\firearms\\attachments\\scope\\w_att__scope_short_03\\w_att__scope_short_03.app"
   },
   "Data": {
     "Version": 195,
@@ -725,7 +725,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -1877,7 +1877,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -2456,7 +2456,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Default"
+                  "$value": "default"
                 }
               ]
             }
@@ -3167,7 +3167,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -4319,7 +4319,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -4894,7 +4894,13 @@
             ],
             "visualTags": {
               "$type": "redTagList",
-              "tags": []
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "frank"
+                }
+              ]
             }
           }
         },
@@ -5603,7 +5609,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -6755,7 +6761,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -7334,7 +7340,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Pimp_1"
+                  "$value": "pimp1"
                 }
               ]
             }
@@ -8045,7 +8051,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -9197,7 +9203,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -9776,7 +9782,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Pimp_2"
+                  "$value": "pimp2"
                 }
               ]
             }
@@ -10487,7 +10493,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -11639,7 +11645,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -12218,7 +12224,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Neon_1"
+                  "$value": "neon1"
                 }
               ]
             }
@@ -12929,7 +12935,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -14081,7 +14087,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -14660,7 +14666,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Neon_2"
+                  "$value": "neon2"
                 }
               ]
             }
@@ -15371,7 +15377,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -16523,7 +16529,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -17102,7 +17108,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Military_1"
+                  "$value": "military1"
                 }
               ]
             }
@@ -17813,7 +17819,7 @@
                     "visibilityAnimationParam": {
                       "$type": "CName",
                       "$storage": "string",
-                      "$value": "visibleWhenAiming"
+                      "$value": "None"
                     }
                   },
                   {
@@ -18965,7 +18971,7 @@
                 "visibilityAnimationParam": {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "visibleWhenAiming"
+                  "$value": "None"
                 }
               },
               {
@@ -19544,7 +19550,7 @@
                 {
                   "$type": "CName",
                   "$storage": "string",
-                  "$value": "Military_2"
+                  "$value": "military2"
                 }
               ]
             }
